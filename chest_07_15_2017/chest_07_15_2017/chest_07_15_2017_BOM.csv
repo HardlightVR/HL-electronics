@@ -1,0 +1,9 @@
+1,RED,LED0603,LED-0603,RED,LEDs,,,,,,LS  L29K-H1J2-1-Z,,,,,,,,,,,,,
+1,GRN,LED0603,LED-0603,GRN,LEDs,,,,,,L29K-F2J1-24-Z,,,,,,,,,,,,,
+1,WHITE,LED0603,LED-0603,WHITE,LEDs,,,,,,LTW-C194TS5,,,,,,,,,,,,,
+2,0.1u,C-USC0402,C0402,"C2, C3","CAPACITOR, American symbol",,,,,,GRM155R71C104KA88J,,,,,,,,,,,,,
+1,220,Ohm,R-US_R0402,R0402,R1,"RESISTOR, American symbol",,,,,RC060JR-07220RL,,,,,,,,,,,,,
+1,47uF,CAP1206,1206,C1,Capacitor,,,,,,GRM31CE70J476ME15L,,,,,,,,,,,,,
+2,4K75,R-US_R0402,R0402,"R2, R3","RESISTOR, American symbol",,,,,,CRCW04024K75FKED,,,,,,,,,,,,,
+1,503148-0890,503148-0890,MOLEX_503148-0890,P1,1.5wb,Dual,r/a,Embs,Tape,Pkg,503148-0890,Good,1.5wb,Dual,r/a,Embs,Tape,Pkg,8p,Molex,503148-0890,None,1.11,USD
+1,BNO055,BNO055,BNO055,U1,BNO055,-,Motion,Co-Processor,,,BNO055,,,,,,,,,,,,,

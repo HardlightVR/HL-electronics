@@ -1,0 +1,84 @@
+
+Existing Control Board Issues:
+A) R4/R5 not connected to 3.3V (dangling in schematic and layout)
+B) FTDI I/O Set at 5V, should be 3.3V
+C) Not enough bulk capacitance
+
+
+Communications Debug (in process, maybe solved):
+--------------------------------------------------------------------
+I did a brief test on my "out-of-tolerence" theory, and did indeed get unreliable communications.
+(Well mostly reliable with occasional dropped characters)
+On the Control Board the FT232RL and the STM32 are running using internal oscillators,
+both using internal clocking and running without external crystals.
+So, when you add the baud rate error of each, that sum is "out-of-tolerence" and losing data.
+In order to get the STM32 clock accurate enough for either the UART or USB,
+we'll need to add a crystal to the STM32.  You could program the FTDI FT232RL
+to output it's 12mHz clock, and use that to clock the STM32,
+which would fix the UART dropped characters.
+(you essentially make "async" comms become "sync" comms that way...)
+However it is a little funky in that you need to change/reprogram the factory
+defaults of the FT232RL, and it would not enable you to use the STM32 USB,
+as the STM32 requires a more accurate clock than that.
+
+Control PCBA (completed) :
+-----------------------------------
+Constraints : Leave all connector types, positions, mounting holes and dimensions unchanged.
+
+1) Separate STM32 power from VR Suit Power using existing LMS1585AIS 3.3V Voltage Regulator
+2) Add second 3.3V Voltage Regulator (LDO) for STM32 ( MIC5365-3.3YC5-TR3 = $0.12
+3) Add PCB stuffing option for  STM32 USB support using Wireless Connector.
+4) Change FTDI USB-UART from UART1 to UART2 (RX/TX/RTS/CTS)
+   Change FTDI VCCIO from 5V to 3.3 volt (CPU)
+5) Change Wireless Connector from UART2 to UART1
+6) Add 8mhz Crystal, series resistor, and tuning capacitors to STM32
+7) Add Ferrite bead for USB Power input for EMI/FCC tests.
+8) Add Ferrite beads to separate sensor power (Jx,jy) from motor noise on bulk 3.3V line
+9) Remove BMD-300 footprint (add to Wireless Board)
+A) Regenerate Gerber files with improved CAM & DRC files
+     for 7 mil trace/space rule using tented vias to reduce solder shorts in manufacturing
+
+I only have the Gerbers for the Bosch IMU Board and the Motor Driver Board,
+(if they are done in Eagle, you could send me those as well...)
+so those are little more difficult to review (just having layout),
+but this is what I've seen so far :
+
+Bosch IMU Board (initial review):
+--------------------------------------------
+1) Minimal Bulk Capacitance, add larger (47uF/1206)
+2) No local Pull-up on SDA/SCL, might be subject to noise/droop/etc.
+3) No Ferrite Bead on DC input
+4) No reset control, (RC circuit) etc.
+A) Regenerate Gerber files with improved CAM & DRC files
+     for 7 mil trace/space rule using tented vias to reduce solder shorts in manufacturing
+
+Motor Driver Board (initial review):
+--------------------------------------------
+1) Minimal Bulk Capacitance, add larger (47uF/1206)
+2) No local Pull-up on SDA/SCL, might be subject to noise/droop/etc.
+3) No Ferrite Bead on DC input
+4) No reset control, (RC circuit) etc.
+A) Regenerate Gerber files with improved CAM & DRC files
+     for 7 mil trace/space rule using tented vias to reduce solder shorts in manufacturing
+Q) DRV2605 datasheet sez 75mA @ 3.3V per motor, so 8 x 75ma = 0.6 A so < 1A per ARM/LEG?
+
+
+Wireless/Battery Board (in process):
+--------------------------------------------------------------------
+(working on specifications)
+
+Chest Board (completed):
+----------------------------------
+1) Changed RGB LED to three (3) 0603 discrete LEDs
+2) Added 47uF (1206 Package) bulk capacitor (optional stuffing)
+3) Added 10K Ohm Pullup resistors on SDA/SCL lines (optional stuffing)
+4) Added NSVR Logo to Rear Side of PCBA
+5) Added Revision Date to Top Side of PCBA
+6) Changed top flood from Power (3.6V) to GND (Ground) for better EMI/FCC
+7) Fixed copper flood for 10 mil isolation/spacing
+8) Generated 2d & 3D models for documentation
+9) Generated PDF documetation for schematic and layout
+A) Regenerate Gerber files with improved CAM & DRC files
+     for 7 mil trace/space rule using tented vias to reduce solder shorts in manufacturing
+
+------------------------------------------------------------------------------------------------------- 

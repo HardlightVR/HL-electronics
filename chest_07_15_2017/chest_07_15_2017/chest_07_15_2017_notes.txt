@@ -1,0 +1,13 @@
+Chest PCB 07/15/2017 Notes
+--------------------------
+
+1) Changed RGB LED to three (3) 0603 discrete LEDs
+2) Added 47uF (1206 Package) bulk capacitor (optional stuffing)
+3) Added 4.7K Ohm Pullup resistors on SDA/SCL lines (optional stuffing)
+4) Added NSVR Logo to Rear Side of PCBA
+5) Added Revision Date to Top Side of PCBA
+6) Changed top flood from Power (3.6V) to GND (Ground) for better EMI/FCC
+7) Fixed copper flood for 10 mil isolation/spacing
+8) Generated 2d & 3D models for documentation
+9) Generated PDF's for schematic and layout
+10) Generated DRC (7 mil trace/space) correct Gerbers files
