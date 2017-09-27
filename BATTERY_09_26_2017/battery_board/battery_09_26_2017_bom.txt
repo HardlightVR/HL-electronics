@@ -1,0 +1,6 @@
+Partlist exported from U:/NullSpaceVR/mkIII-firmware/BATTERY_09_26_2017/battery_board/battery_09_26_2017.sch at 9/27/2017 2:37:07 PM
+
+Qty Value     Device                              Package         Parts        Description       
+2             WPAD-1-PTH                          WPAD-1-PTH-2.54 GND, VBAT    Wire Pad - Single 
+1   28V-5A    SMD-DIODE-SCHOTTKY-28V-5A(DO-214AA) DO-214AA        D1           304020021         
+2   KSE-1042P KSE-1042P                           KSE-1042P       CELL1, CELL2                   
