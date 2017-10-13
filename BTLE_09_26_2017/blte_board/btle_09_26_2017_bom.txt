@@ -1,14 +1,14 @@
-Partlist exported from U:/NullSpaceVR/mkIII-firmware/BTLE_09_26_2017/blte_board/btle_board.sch at 9/27/2017 11:11:03 AM
+U:/NullSpaceVR/mkIII-firmware/BTLE_09_26_2017/blte_board/btle_board.sch at 9/27/2017
 
-Qty Value         Device                              Package        Parts      Description                                         
-1                 BMD-300                             BMD-300        U1                                                             
-1                 LEDCHIP-LED0603                     CHIP-LED0603   LED1       LED                                                 
-1                 TC2030-MCP-NL                       TC2030-MCP-NL  P1         TAG-CONNECT ICSP ConnectorManufacturer: Tag-Connect 
-1   0.1uF         CAP0603-CAP                         0603-CAP       C1         Capacitor                                           
-3   10uF          CAP0603-CAP                         0603-CAP       C2, C3, C4 Capacitor                                           
-1   1206L050YR    1206L050YR                          1206LSERIES    F1                                                             
-1   28V-5A        SMD-DIODE-SCHOTTKY-28V-5A(DO-214AA) DO-214AA       D1         304020021                                           
-1   44764-1201    44764-1201                          44764-1201     P9                                                             
-1   470           RESISTOR0402-TYP                    EIA-0402       R1         Resistor                                            
-1   POWER_JACKPTH POWER_JACKPTH                       POWER_JACK_PTH P4         Power Jack                                          
-1   USB-B1HSB6    USB-B1HSB6                          OST_USB-B1HSB6 P3         Conn Usb Type b r/a Black                           
+Qty Value         Device                              Package        Parts                        
+1                 BMD-300                             BMD-300        U1
+1                 LEDCHIP-LED0603                     CHIP-LED0603   LED1
+1                 TC2030-MCP-NL                       TC2030-MCP-NL  P1
+1   0.1uF         CAP0603-CAP                         0603-CAP       C1
+3   10uF          CAP0603-CAP                         0603-CAP       C2, C3, C4
+1   1206L050YR    1206L050YR                          1206LSERIES    F1
+1   28V-5A        SMD-DIODE-SCHOTTKY-28V-5A(DO-214AA) DO-214AA       D1
+1   44764-1201    44764-1201                          44764-1201     P9
+1   470           RESISTOR0402-TYP                    EIA-0402       R1
+1   POWER_JACKPTH POWER_JACKPTH                       POWER_JACK_PTH P4
+1   USB-B1HSB6    USB-B1HSB6                          OST_USB-B1HSB6 P3
