@@ -2,7 +2,7 @@
 
 -------------------------------------------------------------------------------------------
 
-![Bluetooth Configuration 1](https://raw.githubusercontent.com/NullSpaceVR/mkIII-firmware/master/BTLE_09_26_2017/documentation/Screenshot_1.jpg?raw=true)
+![ Bluetooth Configuration 1 ]( https://raw.githubusercontent.com/NullSpaceVR/mkIII-firmware/master/BTLE_09_26_2017/documentation/Screenshot_1.jpg?token=ABgWFa5PjB0_3cOWk8V6ZYEHVBU2ZpJvks5Z6kgzwA%3D%3D )
 
 [![Bluetooth Configuration 2](https://raw.githubusercontent.com/mkIII-firmware/BTLE_09_26_2017/documentation/Screenshot_2.jpg?raw=true)Bluetooth Config](https://github.com/NullSpaceVR/mkIII-firmware/blob/master/BTLE_09_26_2017/documentation)
 
