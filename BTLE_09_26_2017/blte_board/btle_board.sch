@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -3409,6 +3409,289 @@ chip</description>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 <rectangle x1="-0.2032" y1="-0.3556" x2="0.2032" y2="0.3556" layer="21"/>
 </package>
+<package name="WPAD-1-PTH-2.54">
+<description>&lt;B&gt;Wire Pad - Single&lt;/B&gt;
+&lt;BR&gt;
+Good for scope lead clips, test jumpers, probe points, etc.
+&lt;P&gt;
+PatternAgents ProtoPads Library
+&lt;P&gt;
+Schematic and PCB layout libraries for design patterns by PatternAgents.
+&lt;BR&gt;
+For the CADSoft Eagle CAD program : http://www.cadsoftusa.com/download-eagle/
+&lt;P&gt;
+Source LBR : http://www.patternagents.com
+&lt;BR&gt;
+Github : https://github.com/PatternAgents
+&lt;BR&gt;
+License : http://creativecommons.org/licenses/by-sa/4.0/ 
+(Creative Commons 4.0)
+&lt;P&gt;
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
+OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA,
+OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+&lt;P&gt;</description>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<pad name="1" x="0" y="0" drill="1.016" shape="octagon"/>
+<text x="-1.3462" y="1.4478" size="0.6096" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+</package>
+<package name="WPAD-1-SQ-0.5MM">
+<description>&lt;B&gt;Wire Pad - Single, Square&lt;/B&gt;
+&lt;BR&gt;
+Good for scope lead clips, test jumpers, probe points, etc.
+&lt;P&gt;
+PatternAgents ProtoPads Library
+&lt;P&gt;
+Schematic and PCB layout libraries for design patterns by PatternAgents.
+&lt;BR&gt;
+For the CADSoft Eagle CAD program : http://www.cadsoftusa.com/download-eagle/
+&lt;P&gt;
+Source LBR : http://www.patternagents.com
+&lt;BR&gt;
+Github : https://github.com/PatternAgents
+&lt;BR&gt;
+License : http://creativecommons.org/licenses/by-sa/4.0/ 
+(Creative Commons 4.0)
+&lt;P&gt;
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
+OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA,
+OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+&lt;P&gt;</description>
+<smd name="1" x="0" y="0" dx="0.5" dy="0.5" layer="1" cream="no"/>
+<wire x1="-0.508" y1="-0.508" x2="-0.508" y2="0.508" width="0.2032" layer="21"/>
+<wire x1="-0.508" y1="0.508" x2="0.508" y2="0.508" width="0.2032" layer="21"/>
+<wire x1="0.508" y1="0.508" x2="0.508" y2="-0.508" width="0.2032" layer="21"/>
+<wire x1="0.508" y1="-0.508" x2="-0.508" y2="-0.508" width="0.2032" layer="21"/>
+<text x="-0.635" y="0.635" size="0.4064" layer="25" font="vector" ratio="15">&gt;NAME</text>
+</package>
+<package name="WPAD-1-RD-0.5MM">
+<description>&lt;B&gt;Wire Pad - Single, Round&lt;/B&gt;
+&lt;BR&gt;
+Good for scope lead clips, test jumpers, probe points, etc.
+&lt;P&gt;
+PatternAgents ProtoPads Library
+&lt;P&gt;
+Schematic and PCB layout libraries for design patterns by PatternAgents.
+&lt;BR&gt;
+For the CADSoft Eagle CAD program : http://www.cadsoftusa.com/download-eagle/
+&lt;P&gt;
+Source LBR : http://www.patternagents.com
+&lt;BR&gt;
+Github : https://github.com/PatternAgents
+&lt;BR&gt;
+License : http://creativecommons.org/licenses/by-sa/4.0/ 
+(Creative Commons 4.0)
+&lt;P&gt;
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
+OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA,
+OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+&lt;P&gt;</description>
+<circle x="0" y="0" radius="0.45" width="0.2032" layer="21"/>
+<smd name="P$1" x="0" y="0" dx="0.5" dy="0.5" layer="1" roundness="100" cream="no"/>
+<text x="0.889" y="-0.127" size="0.8128" layer="25" font="vector" ratio="15">&gt;NAME</text>
+</package>
+<package name="WPAD-1-PTH-POGO">
+<description>&lt;B&gt;Wire Pad - Standard Pogo Pin&lt;/B&gt;
+&lt;BR&gt;
+Good for scope lead clips, test jumpers, probe points, etc.
+&lt;P&gt;
+PatternAgents ProtoPads Library
+&lt;P&gt;
+Schematic and PCB layout libraries for design patterns by PatternAgents.
+&lt;BR&gt;
+For the CADSoft Eagle CAD program : http://www.cadsoftusa.com/download-eagle/
+&lt;P&gt;
+Source LBR : http://www.patternagents.com
+&lt;BR&gt;
+Github : https://github.com/PatternAgents
+&lt;BR&gt;
+License : http://creativecommons.org/licenses/by-sa/4.0/ 
+(Creative Commons 4.0)
+&lt;P&gt;
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
+OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA,
+OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+&lt;P&gt;</description>
+<circle x="0" y="0" radius="0.635" width="0.127" layer="51"/>
+<pad name="1" x="0" y="0" drill="0.9" diameter="0.8128" rot="R90" thermals="no"/>
+<hole x="0" y="0" drill="1.4732"/>
+<text x="-1.27" y="1.27" size="0.6096" layer="25" font="vector" ratio="15">&gt;NAME</text>
+</package>
+<package name="WPAD-1-PTH-POGO-LRG">
+<description>&lt;B&gt;Wire Pad - Large Pogo Pin&lt;/B&gt;
+&lt;BR&gt;
+Good for scope lead clips, test jumpers, probe points, etc.
+&lt;P&gt;
+PatternAgents ProtoPads Library
+&lt;P&gt;
+Schematic and PCB layout libraries for design patterns by PatternAgents.
+&lt;BR&gt;
+For the CADSoft Eagle CAD program : http://www.cadsoftusa.com/download-eagle/
+&lt;P&gt;
+Source LBR : http://www.patternagents.com
+&lt;BR&gt;
+Github : https://github.com/PatternAgents
+&lt;BR&gt;
+License : http://creativecommons.org/licenses/by-sa/4.0/ 
+(Creative Commons 4.0)
+&lt;P&gt;
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
+OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA,
+OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+&lt;P&gt;</description>
+<circle x="0" y="0" radius="0.635" width="0.127" layer="51"/>
+<pad name="1" x="0" y="0" drill="0.9" diameter="0.8128" rot="R90" thermals="no"/>
+<hole x="0" y="0" drill="1.5494"/>
+<text x="-1.27" y="1.27" size="0.6096" layer="25" font="vector" ratio="15">&gt;NAME</text>
+</package>
+<package name="WPAD-1-0402">
+<description>&lt;B&gt;Wire Pad - Single&lt;/B&gt;
+&lt;BR&gt;
+Good for scope lead clips, test jumpers, probe points, etc.
+&lt;P&gt;
+PatternAgents ProtoPads Library
+&lt;P&gt;
+Schematic and PCB layout libraries for design patterns by PatternAgents.
+&lt;BR&gt;
+For the CADSoft Eagle CAD program : http://www.cadsoftusa.com/download-eagle/
+&lt;P&gt;
+Source LBR : http://www.patternagents.com
+&lt;BR&gt;
+Github : https://github.com/PatternAgents
+&lt;BR&gt;
+License : http://creativecommons.org/licenses/by-sa/4.0/ 
+(Creative Commons 4.0)
+&lt;P&gt;
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
+OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA,
+OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+&lt;P&gt;</description>
+<smd name="1" x="-0.015" y="0" dx="0.7" dy="0.9" layer="1" cream="no"/>
+<text x="-0.635" y="0.889" size="0.6096" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<wire x1="-0.508" y1="0.635" x2="-0.508" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-0.508" y1="-0.635" x2="0.508" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="0.508" y1="0.635" x2="-0.508" y2="0.635" width="0.127" layer="21"/>
+<wire x1="0.508" y1="0.635" x2="0.508" y2="-0.635" width="0.127" layer="21"/>
+</package>
+<package name="WPAD-1-0603">
+<description>&lt;B&gt;Wire Pad - Single&lt;/B&gt;
+&lt;BR&gt;
+Good for scope lead clips, test jumpers, probe points, etc.
+&lt;P&gt;
+PatternAgents ProtoPads Library
+&lt;P&gt;
+Schematic and PCB layout libraries for design patterns by PatternAgents.
+&lt;BR&gt;
+For the CADSoft Eagle CAD program : http://www.cadsoftusa.com/download-eagle/
+&lt;P&gt;
+Source LBR : http://www.patternagents.com
+&lt;BR&gt;
+Github : https://github.com/PatternAgents
+&lt;BR&gt;
+License : http://creativecommons.org/licenses/by-sa/4.0/ 
+(Creative Commons 4.0)
+&lt;P&gt;
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
+OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA,
+OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+&lt;P&gt;</description>
+<smd name="1" x="-0.015" y="0" dx="1" dy="1.1" layer="1" cream="no"/>
+<text x="-0.635" y="0.889" size="0.6096" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<wire x1="-0.635" y1="0.635" x2="-0.635" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="-0.635" x2="0.635" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="0.635" y1="0.635" x2="-0.635" y2="0.635" width="0.127" layer="21"/>
+<wire x1="0.635" y1="0.635" x2="0.635" y2="-0.635" width="0.127" layer="21"/>
+</package>
+<package name="WPAD-1-0805">
+<description>&lt;B&gt;Wire Pad - Single&lt;/B&gt;
+&lt;BR&gt;
+Good for scope lead clips, test jumpers, probe points, etc.
+&lt;P&gt;
+PatternAgents ProtoPads Library
+&lt;P&gt;
+Schematic and PCB layout libraries for design patterns by PatternAgents.
+&lt;BR&gt;
+For the CADSoft Eagle CAD program : http://www.cadsoftusa.com/download-eagle/
+&lt;P&gt;
+Source LBR : http://www.patternagents.com
+&lt;BR&gt;
+Github : https://github.com/PatternAgents
+&lt;BR&gt;
+License : http://creativecommons.org/licenses/by-sa/4.0/ 
+(Creative Commons 4.0)
+&lt;P&gt;
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
+OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA,
+OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+&lt;P&gt;</description>
+<smd name="1" x="-0.015" y="0" dx="1.3" dy="1.5" layer="1" cream="no"/>
+<text x="-0.762" y="1.016" size="0.6096" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<wire x1="-0.7874" y1="0.889" x2="-0.7874" y2="-0.889" width="0.127" layer="21"/>
+<wire x1="-0.7874" y1="-0.889" x2="0.762" y2="-0.889" width="0.127" layer="21"/>
+<wire x1="0.762" y1="0.889" x2="-0.7874" y2="0.889" width="0.127" layer="21"/>
+<wire x1="0.762" y1="0.889" x2="0.762" y2="-0.889" width="0.127" layer="21"/>
+</package>
+<package name="WPAD-1-PTH-30AWG">
+<description>&lt;B&gt;Wire Pad - Single, for 30AWG Kynar (30 Gauge Wire Wrap Wire)&lt;/B&gt;
+&lt;BR&gt;
+Good for scope lead clips, test jumpers, probe points, etc.
+&lt;P&gt;
+PatternAgents ProtoPads Library
+&lt;P&gt;
+Schematic and PCB layout libraries for design patterns by PatternAgents.
+&lt;BR&gt;
+For the CADSoft Eagle CAD program : http://www.cadsoftusa.com/download-eagle/
+&lt;P&gt;
+Source LBR : http://www.patternagents.com
+&lt;BR&gt;
+Github : https://github.com/PatternAgents
+&lt;BR&gt;
+License : http://creativecommons.org/licenses/by-sa/4.0/ 
+(Creative Commons 4.0)
+&lt;P&gt;
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
+OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA,
+OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+&lt;P&gt;</description>
+<pad name="1" x="0" y="0" drill="0.5"/>
+<text x="-0.8382" y="0.6858" size="0.4064" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CAP">
@@ -3435,6 +3718,39 @@ chip</description>
 <text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="WPAD-1">
+<description>&lt;B&gt;Wire Pad - Single&lt;/B&gt;
+&lt;BR&gt;
+Good for scope lead clips, test jumpers, probe points, etc.
+&lt;P&gt;
+PatternAgents ProtoPads Library
+&lt;P&gt;
+Schematic and PCB layout libraries for design patterns by PatternAgents.
+&lt;BR&gt;
+For the CADSoft Eagle CAD program : http://www.cadsoftusa.com/download-eagle/
+&lt;P&gt;
+Source LBR : http://www.patternagents.com
+&lt;BR&gt;
+Github : https://github.com/PatternAgents
+&lt;BR&gt;
+License : http://creativecommons.org/licenses/by-sa/4.0/ 
+(Creative Commons 4.0)
+&lt;P&gt;
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
+OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA,
+OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+&lt;P&gt;</description>
+<wire x1="-6.35" y1="-2.54" x2="1.27" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.27" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="-6.35" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="2.54" x2="-6.35" y2="-2.54" width="0.4064" layer="94"/>
+<text x="-6.35" y="3.175" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3785,6 +4101,127 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WPAD-1" prefix="WP" uservalue="yes">
+<description>&lt;B&gt;Wire Pad - Single&lt;/B&gt;
+&lt;BR&gt;
+Good for scope lead clips, test jumpers, probe points, etc.
+&lt;P&gt;
+PatternAgents ProtoPads Library
+&lt;P&gt;
+Schematic and PCB layout libraries for design patterns by PatternAgents.
+&lt;BR&gt;
+For the CADSoft Eagle CAD program : http://www.cadsoftusa.com/download-eagle/
+&lt;P&gt;
+Source LBR : http://www.patternagents.com
+&lt;BR&gt;
+Github : https://github.com/PatternAgents
+&lt;BR&gt;
+License : http://creativecommons.org/licenses/by-sa/4.0/ 
+(Creative Commons 4.0)
+&lt;P&gt;
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
+OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA,
+OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+&lt;P&gt;</description>
+<gates>
+<gate name="G$1" symbol="WPAD-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-PTH" package="WPAD-1-PTH-2.54">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-SQ-0.5MM" package="WPAD-1-SQ-0.5MM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-RD-0.5MM" package="WPAD-1-RD-0.5MM">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-POGO" package="WPAD-1-PTH-POGO">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-POGO-LRG" package="WPAD-1-PTH-POGO-LRG">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402" package="WPAD-1-0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-0603" package="WPAD-1-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-0805" package="WPAD-1-0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-30AWG" package="WPAD-1-PTH-30AWG">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -5613,6 +6050,12 @@ Source: www.kingbright.com</description>
 <part name="LED1" library="led" deviceset="LED" device="CHIP-LED0603"/>
 <part name="R1" library="PatternAgents-ProtoPads" deviceset="RESISTOR" device="0402-TYP" value="470"/>
 <part name="U$21" library="PatternAgents-Beautify" deviceset="GND" device=""/>
+<part name="C5" library="PatternAgents-ProtoPads" deviceset="CAP" device="0603-CAP" value="10uF"/>
+<part name="U$4" library="PatternAgents-Beautify" deviceset="GND" device=""/>
+<part name="D2" library="Seeed-Diode-2016" deviceset="SMD-DIODE-SCHOTTKY-28V-5A(DO-214AA)" device="" value="28V-5A"/>
+<part name="BAT+" library="PatternAgents-ProtoPads" deviceset="WPAD-1" device="-PTH"/>
+<part name="BAT-" library="PatternAgents-ProtoPads" deviceset="WPAD-1" device="-PTH"/>
+<part name="U$5" library="PatternAgents-Beautify" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5631,13 +6074,13 @@ Confidential and Proprietary Information</text>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="P1" gate="G$1" x="256.54" y="167.64"/>
 <instance part="P4" gate="G$1" x="38.1" y="139.7"/>
-<instance part="C4" gate="G$1" x="73.66" y="139.7"/>
-<instance part="U$15" gate="G$1" x="73.66" y="132.08"/>
+<instance part="C4" gate="G$1" x="78.74" y="139.7"/>
+<instance part="U$15" gate="G$1" x="78.74" y="132.08"/>
 <instance part="F1" gate="A" x="63.5" y="170.18" smashed="yes">
 <attribute name="NAME" x="65.7606" y="166.5224" size="1.778" layer="95" ratio="10" rot="SR0"/>
 </instance>
 <instance part="P3" gate="G$1" x="33.02" y="172.72" rot="R180"/>
-<instance part="D1" gate="G$1" x="88.9" y="147.32"/>
+<instance part="D1" gate="G$1" x="93.98" y="147.32"/>
 <instance part="C3" gate="G$1" x="91.44" y="101.6"/>
 <instance part="U$1" gate="G$1" x="91.44" y="93.98"/>
 <instance part="C2" gate="G$1" x="78.74" y="101.6"/>
@@ -5648,6 +6091,12 @@ Confidential and Proprietary Information</text>
 <instance part="LED1" gate="G$1" x="259.08" y="139.7"/>
 <instance part="R1" gate="R" x="251.46" y="142.24" rot="R90"/>
 <instance part="U$21" gate="G$1" x="259.08" y="132.08"/>
+<instance part="C5" gate="G$1" x="78.74" y="60.96"/>
+<instance part="U$4" gate="G$1" x="78.74" y="53.34"/>
+<instance part="D2" gate="G$1" x="93.98" y="68.58"/>
+<instance part="BAT+" gate="G$1" x="22.86" y="68.58" rot="R180"/>
+<instance part="BAT-" gate="G$1" x="22.86" y="58.42" rot="R180"/>
+<instance part="U$5" gate="G$1" x="43.18" y="55.88"/>
 </instances>
 <busses>
 </busses>
@@ -5726,7 +6175,7 @@ Confidential and Proprietary Information</text>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="73.66" y1="137.16" x2="73.66" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="137.16" x2="78.74" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="U$15" gate="G$1" pin="GND"/>
 </segment>
 <segment>
@@ -5758,6 +6207,17 @@ Confidential and Proprietary Information</text>
 <pinref part="LED1" gate="G$1" pin="C"/>
 <wire x1="259.08" y1="134.62" x2="259.08" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="U$21" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C5" gate="G$1" pin="2"/>
+<wire x1="78.74" y1="58.42" x2="78.74" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="58.42" x2="43.18" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="GND"/>
+<wire x1="43.18" y1="58.42" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="BAT-" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="RXD_BMD" class="0">
@@ -5868,11 +6328,11 @@ Confidential and Proprietary Information</text>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="1"/>
-<label x="71.12" y="147.32" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
-<wire x1="85.09" y1="147.32" x2="73.66" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="147.32" x2="71.12" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="144.78" x2="73.66" y2="147.32" width="0.1524" layer="91"/>
-<junction x="73.66" y="147.32"/>
+<label x="76.2" y="147.32" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
+<wire x1="90.17" y1="147.32" x2="78.74" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="147.32" x2="76.2" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="144.78" x2="78.74" y2="147.32" width="0.1524" layer="91"/>
+<junction x="78.74" y="147.32"/>
 <pinref part="D1" gate="G$1" pin="+"/>
 </segment>
 </net>
@@ -5943,14 +6403,19 @@ Confidential and Proprietary Information</text>
 </net>
 <net name="VIN" class="0">
 <segment>
-<label x="96.52" y="147.32" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
+<label x="101.6" y="147.32" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
 <pinref part="D1" gate="G$1" pin="-"/>
-<wire x1="92.71" y1="147.32" x2="96.52" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="97.79" y1="147.32" x2="101.6" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="33.02" y1="111.76" x2="40.64" y2="111.76" width="0.1524" layer="91"/>
 <label x="40.64" y="111.76" size="1.27" layer="95" font="vector" ratio="10" rot="MR180" xref="yes"/>
 <pinref part="P9" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<label x="101.6" y="68.58" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
+<pinref part="D2" gate="G$1" pin="-"/>
+<wire x1="97.79" y1="68.58" x2="101.6" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED1" class="0">
@@ -5972,6 +6437,22 @@ Confidential and Proprietary Information</text>
 <pinref part="R1" gate="R" pin="1"/>
 <wire x1="251.46" y1="137.16" x2="251.46" y2="132.08" width="0.1524" layer="91"/>
 <label x="251.46" y="132.08" size="1.27" layer="95" font="vector" ratio="20" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="VBAT_DC" class="0">
+<segment>
+<pinref part="C5" gate="G$1" pin="1"/>
+<label x="76.2" y="68.58" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
+<wire x1="90.17" y1="68.58" x2="78.74" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="68.58" x2="76.2" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="66.04" x2="78.74" y2="68.58" width="0.1524" layer="91"/>
+<junction x="78.74" y="68.58"/>
+<pinref part="D2" gate="G$1" pin="+"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="68.58" x2="40.64" y2="68.58" width="0.1524" layer="91"/>
+<label x="40.64" y="68.58" size="1.27" layer="95" ratio="10" xref="yes"/>
+<pinref part="BAT+" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
