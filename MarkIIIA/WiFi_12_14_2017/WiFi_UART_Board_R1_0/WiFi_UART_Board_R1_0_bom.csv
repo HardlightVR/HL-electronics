@@ -1,0 +1,9 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"";
+"1";"";"LEDCHIP-LED0603";"CHIP-LED0603";"LED1";"LED";"";
+"1";"100nF";"CAP0402-CAP";"0402-CAP";"C4";"Capacitor";"";
+"2";"10uF";"CAP0603-CAP";"0603-CAP";"C1, C3";"Capacitor";"";
+"1";"1K";"RESISTOR0402-TYP";"EIA-0402";"R1";"Resistor";"";
+"1";"3.3V/150mA";"V_REG_MIC52053.3V";"SOT23-5";"U1";"V_REG MIC5205 Standard 3.3V, 5V, and Adjustable 150mA LDO voltage regulator in SOT-23 layout. Micrel part MIC5205. BP (by-pass) pin is used to lower output noise with 470pF cap, may be left open. On the adjustable version BP is used to set output.";"";
+"1";"44428-1201";"44428-1201";"MOLEX_44428-1201";"P1";"Conn Wire to Board HDR 12 POS 3mm Solder RA Thru-Hole Micro-Fit 3.0 BMI? Tray";"";
+"1";"470pF";"CAP0402-CAP";"0402-CAP";"C2";"Capacitor";"";
+"1";"FT232RL";"FT232RL";"SSOP28DB";"U2";"USB UART";"";
