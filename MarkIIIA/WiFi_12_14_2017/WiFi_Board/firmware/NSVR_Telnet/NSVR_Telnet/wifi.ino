@@ -47,17 +47,15 @@ int loop_wifi() {
         String mode = setting_wifi_mode();
         if (mode == "ap") loop_wifi_state = 1;
         else if (mode == "sta") loop_wifi_state = 3;
-        else loop_wifi_state = 1; // 6 for Embedis default
+        else loop_wifi_state = 6;
         return 0;
     }
     if (loop_wifi_state == 1) {
         String ap_ssid = setting_ap_ssid();
         String ap_passphrase = setting_ap_passphrase();
         LOG( String() + F("[ Embedis : Started WiFi Access Point (AP_SSID) : ") + ap_ssid + F(" ] ") );
-        LOG0( String() + F("[ Embedis : Started WiFi Access Point (AP_SSID) : ") + ap_ssid + F(" ] ") );
         if (ap_passphrase == setting_default_passphrase()) {
             LOG( String() + F("[ Embedis : WiFi Access Point Passphrase (AP_PASS) : ") + ap_passphrase + F(" ] ") );
-            LOG0( String() + F("[ Embedis : WiFi Access Point Passphrase (AP_PASS) : ") + ap_passphrase + F(" ] ") );
         }
         WiFi.mode(WIFI_AP);
         WiFi.softAP(ap_ssid.c_str(), ap_passphrase.c_str());
@@ -83,7 +81,7 @@ int loop_wifi() {
         if (WiFi.status() == WL_IDLE_STATUS) {
             WiFi.disconnect();
         } else {
-            LOG(String() + F("[ Embedis : Connecting to: ") + ssid + F(" ] "));
+            LOG(String() + F("[Embedis : Connecting to: ") + ssid + F(" ] "));
             timeout = millis() + TIMEOUT;
             ++loop_wifi_state;
         }
@@ -94,7 +92,7 @@ int loop_wifi() {
             loop_wifi_state = 4;
         }
         else if (millis() > timeout) {
-            LOG(F("[ Embedis : ERROR - Unable to connect Wi-Fi! ] "));
+            LOG(F("[Embedis : ERROR - Unable to connect Wi-Fi! ] "));
             loop_wifi_state = 1;
         }
         return 0;

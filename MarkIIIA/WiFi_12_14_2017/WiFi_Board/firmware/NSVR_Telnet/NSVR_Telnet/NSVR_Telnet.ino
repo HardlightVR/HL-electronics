@@ -4,9 +4,8 @@
     -------------------------------------------------
     This Arduino IDE sketch for the ESP8266 platform
     (or the Arduino Platform + WiFI Shield Configuration) 
-    is used to provide a transparent telnet link for the 
-    NSVR MarkIII(A) Suit to a host computer. 
-    It may be used in one of two ways :
+    is used to provide a transparent telnet link for the NSVR Suit
+    to a host computer. It may be used in one of two ways :
     
     1) As a Wi-Fi Access Point, which the Host Computer connects with directly. 
 
@@ -46,7 +45,7 @@
 
     Embedis itself is transparent, so a more secure implementation would encrypt
     the values (and even the keys themselves) prior to calling Embedis. 
-    In this example, all of the keys and values are in unencrypted plain-text, 
+    In this sketch, all of the keys and values are in unencrypted plain-text, 
     for ease of debugging.
     
     A more secure inplementation would use encryted keys and values, 
@@ -66,13 +65,13 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
    ======================================================================================  
-    Embeds Internal Database :
+    Embedis Internal Database :
     
     The Embedis Server (similar in operation to the Redis.IO server)
     can be used to get/set keys in the embedded processor's EEPROM database,
     such as the the WiFi SSID and Passphrase. You no longer need to embed 
     that "data" into your "program"! The EEPROM is persistant, and can be
-    used across multiple projects to configure your program setting for
+    used across multiple programs to configure your program setting for
     the specific hardware and network configuration you are using. 
     
     Now, you don't need to recompile your program and reflash your device
@@ -89,69 +88,65 @@
     
    ======================================================================================
 */
-
+/*
+  
+*/
 #if !defined(ARDUINO_ARCH_ESP8266)
-#error "This Sketch is for the ESP8266/ESP32 Platform only..., untested on others..."
+#error "This Sketch is for the ESP8266/ESP32 Platform only!"
+#error "untested on other platforms..."
 #endif
+
 #include <ESP8266WiFi.h>
-
-/* Use Embedis non-volatile database for settings */
+/*  Embedis Dictionary Server 
+ *  Database  : Located in the flash emulated EEPROM area
+ *  Interface : Serial1 (TXD=IO2, RXD=none!) Write/Log/Debug Only (no input) 
+*/
 #include "Embedis.h"
-Embedis embedis(Serial1); /* the LOG/console Serial monitor on GPIO_2 */
+Embedis embedis(Serial1); /* the LOG/console Serial monitor */
 
-static uint8_t led = 0;      /* a blinky LED (GPIO_0 output)     */
+static uint8_t led;      /* a blinky LED (GPIO output)     */
 
 void setup() 
 {
     /* start the LOG/console channel first, to log everything else... */   
     Serial1.begin(9600);
     delay(50);
+    Serial.begin(115200);
     LOG( String() + F(" ") );
     LOG( String() + F("[ ==================================================== ]") );
-    LOG( String() + F("[ Hardlight VR : Mark III Suit Wi-Fi Adapter           ]") );
+    LOG( String() + F("[ Embedis : WWW/Telnet/CLI Servers Sketch for ESP8266! ]") );
     LOG( String() + F("[ ==================================================== ]") );
-
-    /* start the Suit interface UART on Serial0 */
-    Serial.begin(115200);
-
-    // Keep this here... 
-    // The configuration settings are loaded here ...
-    setup_EEPROM();
-
-    /* setup the embedis commands */
+    
+    setup_EEPROM();   // keep this second, the configuration settings are loaded here
     setup_vcc();
     setup_commands();
-
-    /* Start the telnet server/client */
     setup_telnet();
+
     
     // setup the LED pin based on the Embedis key "led_pin"
     String led_pin_number = setting_led_pin();
     led = (uint8_t) led_pin_number.toInt();
     pinMode(led, OUTPUT);
-    LOG0( String() + F("[ Hardlight VR : Platform led_pin_number: ") +  led_pin_number + F(" led_pin: ") + led + F(" ]"));
+    LOG( String() + F("[ Embedis : Platform led_pin_number: ") +  led_pin_number + F(" led_pin: ") + led + F(" ]"));
 }
 
 void loop() 
 {
-    
-    embedis.process();     // process any Embedis commands
-    yield();              // let the RTOS run if needed
-    loop_wifi();          // service the Wi-Fi connection
-    yield();              // let the RTOS run if needed
-    loop_telnet();        // process the telnet client/server
-    yield();              // let the RTOS run if needed
-    blink(0);             //  blink the LED
-    yield();              // let the RTOS run if needed
+    embedis.process();    // process the Embedis Command Line
+    yield();
+    blink( loop_wifi() ); // blink the LED
+    yield();
+    loop_telnet();        // process the telnet server
+    yield();
 }
 
 
-// Blink out a number. 
-// More than 2 may be hard to count.
+// Blink out a number. More than 2 may be hard to count.
 // Using 0 blinks fast and steady.
 void blink(int num) {
     static unsigned long heartbeat = 0;
     static int beatcount = 0;
+    static uint8_t led = 13;
 
     unsigned long now = millis();
     if (now > heartbeat) {
@@ -192,10 +187,5 @@ void LOG(const String& message) {
         //SERIAL_PORT_MONITOR.println(message);
         Serial1.println(message);
     }
-    Embedis::publish("log", message);
-}
-
-void LOG0(const String& message) {
-    Serial.println(message);
     Embedis::publish("log", message);
 }

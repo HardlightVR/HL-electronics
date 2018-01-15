@@ -6625,10 +6625,10 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <text x="20.32" y="124.46" size="2.032" layer="91" font="vector" ratio="15" rot="MR180">Wireless Expansion</text>
 <text x="27.94" y="157.48" size="2.032" layer="91" font="vector" ratio="15">Main DC Input</text>
 <text x="45.72" y="182.88" size="2.032" layer="91" font="vector" ratio="15">USB (FTDI) UART Interface</text>
-<text x="7.62" y="5.08" size="3.81" layer="91" font="vector" ratio="15">@Copyright 2018 NSVR
+<text x="7.62" y="5.08" size="3.81" layer="91" font="vector" ratio="15">@Copyright 2016/2017 NSVR
 All Rights Reserved
 Confidential and Proprietary Information</text>
-<text x="177.8" y="27.94" size="3.81" layer="91" font="vector" ratio="20">NSVR - ESP8266 Wi-Fi Board</text>
+<text x="177.8" y="27.94" size="3.81" layer="91" font="vector" ratio="20">NSVR - BLTE Board</text>
 <text x="209.55" y="196.85" size="3.81" layer="94" align="bottom-center">ESP-WROOM-02</text>
 <text x="195.58" y="129.54" size="1.27" layer="97" align="top-left">ESP8266 Boot Modes
 

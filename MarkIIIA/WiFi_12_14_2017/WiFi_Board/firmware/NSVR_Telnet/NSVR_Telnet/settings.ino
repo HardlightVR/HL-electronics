@@ -36,7 +36,7 @@ String setting_platform() {
 String setting_board() {
     String board;
     if (!Embedis::get("board", board)) {
-      board = String(F("NSVR: Wi-Fi Adapter"));
+      board = String(F("NVSR: Wi-Fi Adapter"));
     }
     board.toLowerCase();
     return board;        

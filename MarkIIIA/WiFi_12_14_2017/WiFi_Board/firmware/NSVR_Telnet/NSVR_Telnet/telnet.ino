@@ -29,32 +29,19 @@ WiFiClient server23Client;
 
 void setup_telnet() 
 {
-   String mode = setting_wifi_mode();  
-   if (mode == "sta") {
-      // station "sta" will be the Telnet Client
-      // nothing to do for the client
-   } else {
-      // default is access point or "ap"
-      // start the Telnet Server
-      server23 = WiFiServer(23);
-      server23.begin();
-      server23.setNoDelay(true);
-      LOG( String() + F("[ Embedis : Started Telnet Server ]") );    
-   }
+    server23 = WiFiServer(23);
+    server23.begin();
+    server23.setNoDelay(true);
+    LOG( String() + F("[ Embedis : Started Telnet Server ]") );    
 }
 
-
+String temp_telnet_passphrase;
 
 void loop_telnet() 
 {
-  String temp_telnet_passphrase;
-  String mode = setting_wifi_mode();
-  if (mode == "sta") {
-    // run the Telnet Client
-  } else {
-    // run the Telnet Server
     static int eat = 0;
     static int auth = 0;
+
     // new connections
     if (server23.hasClient()) {
         if (!server23Client.connected()) {
@@ -69,6 +56,7 @@ void loop_telnet()
     }
 
     int ch;
+
     // discard negotiation from the client
     while (eat >= 0 || auth >= 0) {
         int peek = server23Client.peek();
@@ -164,6 +152,6 @@ void loop_telnet()
         auth = -3;
         break;
     }
-  }
+
 }
 
