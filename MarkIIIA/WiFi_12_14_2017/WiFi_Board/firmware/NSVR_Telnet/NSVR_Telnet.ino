@@ -129,7 +129,6 @@ void setup()
     String led_pin_number = setting_led_pin();
     led = (uint8_t) led_pin_number.toInt();
     pinMode(led, OUTPUT);
-    LOG0( String() + F("[ Hardlight VR : Platform led_pin_number: ") +  led_pin_number + F(" led_pin: ") + led + F(" ]"));
 }
 
 void loop() 
@@ -137,14 +136,16 @@ void loop()
     
     embedis.process();     // process any Embedis commands
     yield();              // let the RTOS run if needed
-    loop_wifi();          // service the Wi-Fi connection
+    blink (loop_wifi());          // service the Wi-Fi connection
     yield();              // let the RTOS run if needed
-    loop_telnet();        // process the telnet client/server
-    yield();              // let the RTOS run if needed
-    blink(0);             //  blink the LED
+    String mode = setting_wifi_mode();  
+    if (mode == "ap") {
+      loop_telnet_server();        // process the telnet server
+    } else {
+      loop_telnet_client();        // process the telnet server
+    }
     yield();              // let the RTOS run if needed
 }
-
 
 // Blink out a number. 
 // More than 2 may be hard to count.
@@ -191,11 +192,8 @@ void LOG(const String& message) {
         }
         //SERIAL_PORT_MONITOR.println(message);
         Serial1.println(message);
+        //Serial.println(message);
     }
     Embedis::publish("log", message);
 }
 
-void LOG0(const String& message) {
-    Serial.println(message);
-    Embedis::publish("log", message);
-}

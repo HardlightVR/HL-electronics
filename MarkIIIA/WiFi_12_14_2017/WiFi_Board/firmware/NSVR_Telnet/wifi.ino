@@ -54,10 +54,8 @@ int loop_wifi() {
         String ap_ssid = setting_ap_ssid();
         String ap_passphrase = setting_ap_passphrase();
         LOG( String() + F("[ Embedis : Started WiFi Access Point (AP_SSID) : ") + ap_ssid + F(" ] ") );
-        LOG0( String() + F("[ Embedis : Started WiFi Access Point (AP_SSID) : ") + ap_ssid + F(" ] ") );
         if (ap_passphrase == setting_default_passphrase()) {
             LOG( String() + F("[ Embedis : WiFi Access Point Passphrase (AP_PASS) : ") + ap_passphrase + F(" ] ") );
-            LOG0( String() + F("[ Embedis : WiFi Access Point Passphrase (AP_PASS) : ") + ap_passphrase + F(" ] ") );
         }
         WiFi.mode(WIFI_AP);
         WiFi.softAP(ap_ssid.c_str(), ap_passphrase.c_str());
@@ -108,7 +106,7 @@ int loop_wifi() {
                     LOG( String() + F("[ Embedis : MDNS: ") + hostname + F(".local ] ") );
                 }
             }
-            LOG(""); // End setup logging
+            //LOG(""); // End setup logging
             ++loop_wifi_state;
             return 1;
         }
