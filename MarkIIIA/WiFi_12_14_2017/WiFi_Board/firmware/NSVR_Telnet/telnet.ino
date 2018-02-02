@@ -101,19 +101,35 @@ void loop_telnet_server()
         //if (eat < 0) embedis23.process();
         //embedis23.process();
         
-        // if there are incoming bytes available
-        // from the server, read them and print them:
-        if (server23Client.available()) {
-          char c = server23Client.read();
-          Serial.print(c);
-        }
+         {
+          int avail = server23Client.available();
 
-        // as long as there are bytes in the serial queue,
-        // read them and send them out the socket if it's open:
-        while (Serial.available() > 0) {
-          char inChar = Serial.read();
+          //read up to 64 bytes from wifi
+          uint8_t buffer[64];
+          server23Client.read(buffer, avail);
+          
+          //write those bytes out to the suit
+          Serial.write(buffer, avail);
+  
+          
           if (server23Client.connected()) {
-            server23Client.print(inChar);
+            //if we got stuff from wifi..
+            //send an ACK? unsure why this fixes latency issues?
+            if (avail > 0) {
+              server23Client.write(6);
+            }
+            
+            int avail2 = Serial.available();
+            if (avail2 > 0) {
+              server23Client.write(12);
+            }
+
+            //read up to 64 bytes from suit
+            uint8_t buffer2[64];
+            Serial.readBytes(buffer2, avail2);
+            //write out to wifi
+            server23Client.write(buffer2, avail2);
+            
           }
         }
 
