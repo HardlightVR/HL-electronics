@@ -111,9 +111,11 @@ void setup()
     LOG( String() + F("[ Hardlight VR : Mark III Suit Wi-Fi Adapter           ]") );
     LOG( String() + F("[ ==================================================== ]") );
 
+
+  
     /* start the Suit interface UART on Serial0 */
     Serial.begin(115200);
-
+ 
     // Keep this here... 
     // The configuration settings are loaded here ...
     setup_EEPROM();
@@ -129,6 +131,13 @@ void setup()
     String led_pin_number = setting_led_pin();
     led = (uint8_t) led_pin_number.toInt();
     pinMode(led, OUTPUT);
+
+   static uint8_t cts_b = 14; // GPIO14
+    pinMode(cts_b, OUTPUT);
+    digitalWrite(cts_b, LOW);
+    static uint8_t rts_b = 12; // GPIO12
+    pinMode(rts_b, INPUT);
+    
 }
 
 void loop() 
