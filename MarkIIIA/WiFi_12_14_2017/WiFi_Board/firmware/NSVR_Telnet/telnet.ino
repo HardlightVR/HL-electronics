@@ -49,6 +49,27 @@ void setup_telnet()
    }
 }
 
+void doDataTransfer() {
+  if (Serial.available() > 0) {
+   // server23Client.write(12);
+    while (Serial.available() > 0) {
+      server23Client.write(Serial.read());
+    }  
+  }
+
+
+
+  int avail = server23Client.available();
+  if (avail > 0){
+    //server23Client.write(6);
+    //read up to 64 bytes from wifi
+    uint8_t buffer[64];
+    server23Client.read(buffer, avail);
+
+
+    Serial.write(buffer, avail);
+  }
+}
 void loop_telnet_server() 
 {
     String temp_telnet_passphrase = setting_default_passphrase();
@@ -98,25 +119,7 @@ void loop_telnet_server()
     switch(auth) {
     case -99:
         // Logged in
-        //if (eat < 0) embedis23.process();
-        //embedis23.process();
-        
-        // if there are incoming bytes available
-        // from the server, read them and print them:
-        if (server23Client.available()) {
-          char c = server23Client.read();
-          Serial.print(c);
-        }
-
-        // as long as there are bytes in the serial queue,
-        // read them and send them out the socket if it's open:
-        while (Serial.available() > 0) {
-          char inChar = Serial.read();
-          if (server23Client.connected()) {
-            server23Client.print(inChar);
-          }
-        }
-
+        doDataTransfer();
         break;
     case -2:
         server23Client.write(255); // IAB
@@ -217,22 +220,15 @@ void loop_telnet_client()
         */
           // if there are incoming bytes available
           // from the server, read them and print them:
-          if (server23Client.available()) {
-            char c = server23Client.read();
-            // implement soft "hardware" handshake
-            // if rts_b is high (Request to Send not asserted...)
-            // give the RTOS time to context swap, wait for suit ready to receive
-            // while(digitalRead(rts_b)) delay(10);
-               
-            // should we change this to ".write" to improve performance?
-            Serial.print(c);
+          while (server23Client.available() > 0) {
+            Serial.write(server23Client.read());
           }
           // as long as there are bytes in the serial queue,
           // read them and send them out the socket if it's open:
           while (Serial.available() > 0) {
             char inChar = Serial.read();
             if (server23Client.connected()) {
-              server23Client.print(inChar);
+              server23Client.write(inChar);
             }
           }
           /*

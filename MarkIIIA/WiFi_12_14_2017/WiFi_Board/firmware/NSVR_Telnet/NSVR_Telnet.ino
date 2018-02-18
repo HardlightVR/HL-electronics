@@ -9,7 +9,6 @@
     It may be used in one of two ways :
     
     1) As a Wi-Fi Access Point, which the Host Computer connects with directly. 
-
       1A) Flash the MarkIII Suit Wi-Fi board with this program
       1B) Install the MarkIII Suit Wi-Fi board into a suit
       1C) Power on the suit, note a new Wi-Fi Access Point named NVSR:xx:xx:xx:xx:xx:xx
@@ -29,12 +28,10 @@
        2A) Plug the "NVSR Wi-Fi Host Adapter" into your WIN10 host computer, 
            it will enumerate as a COMy: port and automatically connect to it's matching suit.
            (it will match the suit using the MAC:ID of the MarkIII Suit Wi-Fi Board to which it is paired.)
-
    ====================================================================================== 
     SECURITY CAUTION: (WARNING!)
     These routines employ only simple authentication methods.
     These are not intended to be highly secure, that requires a bit more work.
-
     SIMPLE AUTHENTICATION:
     The authentication scheme used here is very, very simple, where the
     default device password is a lowercased base64 function of that 
@@ -43,7 +40,6 @@
     The default device password will be printed out on the Serial Debug Monitor during bootup,
     and should be unique for each device. This is important in a debug situation
     to get an idea of what the device is doing.
-
     Embedis itself is transparent, so a more secure implementation would encrypt
     the values (and even the keys themselves) prior to calling Embedis. 
     In this example, all of the keys and values are in unencrypted plain-text, 
@@ -51,7 +47,6 @@
     
     A more secure inplementation would use encryted keys and values, 
     however that is beyond of the scope of this first Wi-Fi SOW.
-
    ====================================================================================== 
     Based on Open Source Software: (WARNING!)
     
@@ -62,7 +57,6 @@
     but WITHOUT ANY WARRANTY; without even the implied warranty of
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
-
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
    ======================================================================================  
@@ -79,7 +73,6 @@
     in order to change the device settings anymore. If your ESP8266 WiFi
     doesn't connect, it reverts to an Access Point with a Web Server to allow
     you to change the configuration settings and join another WiFi network.
-
     We think that this is a much better mechanism for storing settings between projects.
     Once you start using Embedis for your projects, you'll see how quick and easy
     it is to move and reconfigure your devices without needing to recompile 
@@ -111,9 +104,11 @@ void setup()
     LOG( String() + F("[ Hardlight VR : Mark III Suit Wi-Fi Adapter           ]") );
     LOG( String() + F("[ ==================================================== ]") );
 
+
+  
     /* start the Suit interface UART on Serial0 */
     Serial.begin(115200);
-
+ 
     // Keep this here... 
     // The configuration settings are loaded here ...
     setup_EEPROM();
@@ -122,12 +117,7 @@ void setup()
     setup_vcc();
     setup_commands();
 
-    // setup the UART0 Handshaking lines GPIO12 & GPIO14
-    // the ESP8266 does NOT have hardware handshaking support of RTS & CTS
-    // this needs to be implemented as "soft" control of "hardware" handshaking
-    // NOTES: 1) throttle TXD/Send data based on RTS in main Telnet loop!
-    //        2) tie CTS low, ESP8266 has a 256 byte receive buffer, size your packets accordingly
-    //
+    /* setup the UART0 hardware handshaking */
     static uint8_t cts_b = 14; // GPIO14
     pinMode(cts_b, OUTPUT);
     digitalWrite(cts_b, LOW);
@@ -140,6 +130,7 @@ void setup()
     String led_pin_number = setting_led_pin();
     led = (uint8_t) led_pin_number.toInt();
     pinMode(led, OUTPUT);
+
 }
 
 void loop() 
@@ -207,4 +198,3 @@ void LOG(const String& message) {
     }
     Embedis::publish("log", message);
 }
-
