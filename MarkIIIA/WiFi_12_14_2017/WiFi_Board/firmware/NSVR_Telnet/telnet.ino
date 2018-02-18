@@ -219,6 +219,12 @@ void loop_telnet_client()
           // from the server, read them and print them:
           if (server23Client.available()) {
             char c = server23Client.read();
+            // implement soft "hardware" handshake
+            // if rts_b is high (Request to Send not asserted...)
+            // give the RTOS time to context swap, wait for suit ready to receive
+            // while(digitalRead(rts_b)) delay(10);
+               
+            // should we change this to ".write" to improve performance?
             Serial.print(c);
           }
           // as long as there are bytes in the serial queue,

@@ -122,6 +122,17 @@ void setup()
     setup_vcc();
     setup_commands();
 
+    // setup the UART0 Handshaking lines GPIO12 & GPIO14
+    // the ESP8266 does NOT have hardware handshaking support of RTS & CTS
+    // this needs to be implemented as "soft" control of "hardware" handshaking
+    // NOTES: 1) throttle TXD/Send data based on RTS in main Telnet loop!
+    //        2) tie CTS low, ESP8266 has a 256 byte receive buffer, size your packets accordingly
+    //
+    static uint8_t cts_b = 14; // GPIO14
+    pinMode(cts_b, OUTPUT);
+    digitalWrite(cts_b, LOW);
+    static uint8_t rts_b = 12; // GPIO12
+    pinMode(rts_b, INPUT);
     /* Start the telnet server/client */
     setup_telnet();
     
