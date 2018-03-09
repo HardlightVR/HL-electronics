@@ -60,25 +60,14 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
    ======================================================================================  
-    Embeds Internal Database :
+    Embedis Internal Database :
     
     The Embedis Server (similar in operation to the Redis.IO server)
     can be used to get/set keys in the embedded processor's EEPROM database,
     such as the the WiFi SSID and Passphrase. You no longer need to embed 
     that "data" into your "program"! The EEPROM is persistant, and can be
-    used across multiple projects to configure your program setting for
+    used across multiple projects to configure your program settings for
     the specific hardware and network configuration you are using. 
-    
-    Now, you don't need to recompile your program and reflash your device
-    in order to change the device settings anymore. If your ESP8266 WiFi
-    doesn't connect, it reverts to an Access Point with a Web Server to allow
-    you to change the configuration settings and join another WiFi network.
-    We think that this is a much better mechanism for storing settings between projects.
-    Once you start using Embedis for your projects, you'll see how quick and easy
-    it is to move and reconfigure your devices without needing to recompile 
-    and reflash your device firmware just to change a configuration setting.
-    Now settings can be changed "on-the-fly" with just a web browser.
-    (some settings changes however, will require a restart/reboot to take effect.)
     
    ======================================================================================
 */

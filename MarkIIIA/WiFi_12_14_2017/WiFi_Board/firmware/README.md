@@ -27,8 +27,24 @@ In order to configure a NSVR Wi-Fi board for the MarkII Suit :
 
 9) Now the two units are a "matched pair" and will connect automatically
 
-Note:
------
+Configuration Management :
+------------------------
+
+This firmware has been built and tested on :
+
+Arduino IDE Version 1.8.1
+
+ESP8266 Board library Version 2.4.0
+
+Build Settings:
+---------------
+
+Either Generic ESP8266 or NodeMCU1.0
+
+80Mhz 4M Flash/3M spiffs
+
+Notes:
+------
 ```C
 // The default password is a lowercased base64 of the access point MAC.
 String setting_default_passphrase() {
