@@ -26,6 +26,7 @@ UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-TI.lb
 UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-TouchChips.lbr"
 UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-TouchWidgets.lbr"
 UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents_RFmodules.lbr"
+UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-ProtoPads.lbr"
 UsedLibrary="U:/Halcyon/halcyon_libs/eagle6/lbr/halcyonmod_AnalogIC.lbr"
 UsedLibrary="U:/Halcyon/halcyon_libs/eagle6/lbr/halcyonmod_CEM.lbr"
 UsedLibrary="U:/Halcyon/halcyon_libs/eagle6/lbr/halcyonmod_Connectors.lbr"
@@ -39,7 +40,6 @@ UsedLibrary="U:/Halcyon/halcyon_libs/eagle6/lbr/halcyonmod_SSM.lbr"
 UsedLibrary="U:/Halcyon/halcyon_libs/eagle6/lbr/halcyonmod_Switches.lbr"
 UsedLibrary="U:/Halcyon/halcyon_libs/eagle6/lbr/halcyonmod_Teensy.lbr"
 UsedLibrary="U:/Halcyon/halcyon_libs/eagle6/lbr/haycyonmod_Logos.lbr"
-UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-ProtoPads.lbr"
 
 [Win_1]
 Type="Board Editor"
@@ -132,6 +132,7 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
+Views=" 1: -6.11216 -4.84216 285.304 220.534"
 Sheet=1
 
 [Win_3]

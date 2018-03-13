@@ -6577,46 +6577,46 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 </classes>
 <parts>
 <part name="FRAME1" library="PatternAgents-Beautify" deviceset="FRAME_ASIZE_LANDSCAPE" device=""/>
-<part name="P1" library="SparkFun-Connectors" deviceset="POWER_JACK" device="PTH"/>
-<part name="C2" library="PatternAgents-ProtoPads" deviceset="CAP" device="0402-CAP" value="1uF"/>
+<part name="P801" library="SparkFun-Connectors" deviceset="POWER_JACK" device="PTH"/>
+<part name="C802" library="PatternAgents-ProtoPads" deviceset="CAP" device="0402-CAP" value="1uF"/>
 <part name="U$15" library="PatternAgents-Beautify" deviceset="GND" device=""/>
-<part name="F1" library="1206L050" deviceset="1206L050YR" device=""/>
-<part name="P2" library="USB-B1HSB6" deviceset="USB-B1HSB6" device=""/>
-<part name="D1" library="Seeed-Diode-2016" deviceset="SMD-DIODE-SCHOTTKY-28V-5A(DO-214AA)" device="" value="28V-5A"/>
-<part name="C4" library="PatternAgents-ProtoPads" deviceset="CAP" device="0402-CAP" value="1uF"/>
+<part name="F801" library="1206L050" deviceset="1206L050YR" device=""/>
+<part name="P802" library="USB-B1HSB6" deviceset="USB-B1HSB6" device=""/>
+<part name="D801" library="Seeed-Diode-2016" deviceset="SMD-DIODE-SCHOTTKY-28V-5A(DO-214AA)" device="" value="28V-5A"/>
+<part name="C804" library="PatternAgents-ProtoPads" deviceset="CAP" device="0402-CAP" value="1uF"/>
 <part name="U$2" library="PatternAgents-Beautify" deviceset="GND" device=""/>
-<part name="C5" library="PatternAgents-ProtoPads" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
+<part name="C805" library="PatternAgents-ProtoPads" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
 <part name="U$3" library="PatternAgents-Beautify" deviceset="GND" device=""/>
-<part name="P3" library="nsvr" deviceset="44764-1201" device=""/>
-<part name="C6" library="PatternAgents-ProtoPads" deviceset="CAP" device="0402-CAP" value="1uF"/>
+<part name="P803" library="nsvr" deviceset="44764-1201" device=""/>
+<part name="C806" library="PatternAgents-ProtoPads" deviceset="CAP" device="0402-CAP" value="1uF"/>
 <part name="U$4" library="PatternAgents-Beautify" deviceset="GND" device=""/>
-<part name="D2" library="Seeed-Diode-2016" deviceset="SMD-DIODE-SCHOTTKY-28V-5A(DO-214AA)" device="" value="28V-5A"/>
+<part name="D802" library="Seeed-Diode-2016" deviceset="SMD-DIODE-SCHOTTKY-28V-5A(DO-214AA)" device="" value="28V-5A"/>
 <part name="BAT+" library="PatternAgents-ProtoPads" deviceset="WPAD-1" device="-PTH"/>
 <part name="BAT-" library="PatternAgents-ProtoPads" deviceset="WPAD-1" device="-PTH"/>
 <part name="U$5" library="PatternAgents-Beautify" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="C1" library="PatternAgents-ProtoPads" deviceset="CAP" device="0402-CAP" value="100n"/>
-<part name="R1" library="PatternAgents-ProtoPads" deviceset="RESISTOR" device="0402-TYP" value="10k"/>
-<part name="ESP1" library="we-chip" deviceset="ESP-WROOM02" device=""/>
-<part name="R10" library="PatternAgents-ProtoPads" deviceset="RESISTOR" device="0402-TYP" value="10k"/>
-<part name="R2" library="PatternAgents-ProtoPads" deviceset="RESISTOR" device="0402-TYP" value="10k"/>
+<part name="C801" library="PatternAgents-ProtoPads" deviceset="CAP" device="0402-CAP" value="100n"/>
+<part name="R801" library="PatternAgents-ProtoPads" deviceset="RESISTOR" device="0402-TYP" value="10k"/>
+<part name="U801" library="we-chip" deviceset="ESP-WROOM02" device=""/>
+<part name="R810" library="PatternAgents-ProtoPads" deviceset="RESISTOR" device="0402-TYP" value="10k"/>
+<part name="R802" library="PatternAgents-ProtoPads" deviceset="RESISTOR" device="0402-TYP" value="10k"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="R7" library="PatternAgents-ProtoPads" deviceset="RESISTOR" device="0402-TYP" value="220"/>
-<part name="R4" library="PatternAgents-ProtoPads" deviceset="RESISTOR" device="0402-TYP" value="220"/>
-<part name="R8" library="PatternAgents-ProtoPads" deviceset="RESISTOR" device="0402-TYP" value="10k"/>
-<part name="R3" library="PatternAgents-ProtoPads" deviceset="RESISTOR" device="0402-TYP" value="10k"/>
+<part name="R807" library="PatternAgents-ProtoPads" deviceset="RESISTOR" device="0402-TYP" value="220"/>
+<part name="R804" library="PatternAgents-ProtoPads" deviceset="RESISTOR" device="0402-TYP" value="220"/>
+<part name="R808" library="PatternAgents-ProtoPads" deviceset="RESISTOR" device="0402-TYP" value="10k"/>
+<part name="R803" library="PatternAgents-ProtoPads" deviceset="RESISTOR" device="0402-TYP" value="10k"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="R6" library="PatternAgents-ProtoPads" deviceset="RESISTOR" device="0402-TYP" value="10k"/>
-<part name="R11" library="PatternAgents-ProtoPads" deviceset="RESISTOR" device="0402-TYP" value="4k7"/>
-<part name="R9" library="PatternAgents-ProtoPads" deviceset="RESISTOR" device="0402-TYP" value="4k7"/>
+<part name="R806" library="PatternAgents-ProtoPads" deviceset="RESISTOR" device="0402-TYP" value="10k"/>
+<part name="R811" library="PatternAgents-ProtoPads" deviceset="RESISTOR" device="0402-TYP" value="4k7"/>
+<part name="R809" library="PatternAgents-ProtoPads" deviceset="RESISTOR" device="0402-TYP" value="4k7"/>
 <part name="BOOT" library="PatternAgents-ProtoPads" deviceset="JMP-2-NO" device="-PTH"/>
 <part name="RST" library="PatternAgents-ProtoPads" deviceset="JMP-2-NO" device="-PTH"/>
-<part name="LED1" library="led" deviceset="LED" device="CHIP-LED0603"/>
-<part name="R5" library="PatternAgents-ProtoPads" deviceset="RESISTOR" device="0402-TYP" value="1k"/>
+<part name="D803" library="led" deviceset="LED" device="CHIP-LED0603"/>
+<part name="R805" library="PatternAgents-ProtoPads" deviceset="RESISTOR" device="0402-TYP" value="1k"/>
 <part name="U$21" library="PatternAgents-Beautify" deviceset="GND" device=""/>
-<part name="C3" library="SparkFun-Capacitors" deviceset="CAP_POL" device="D" value="47u"/>
+<part name="C803" library="SparkFun-Capacitors" deviceset="CAP_POL" device="D" value="47u"/>
 <part name="U$26" library="PatternAgents-Beautify" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -6643,69 +6643,69 @@ Default baudrate: 74880 baud (if not working try 76800).</text>
 <instances>
 <instance part="FRAME1" gate="G$2" x="172.72" y="0"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
-<instance part="P1" gate="G$1" x="38.1" y="139.7"/>
-<instance part="C2" gate="G$1" x="78.74" y="139.7"/>
+<instance part="P801" gate="G$1" x="38.1" y="139.7"/>
+<instance part="C802" gate="G$1" x="78.74" y="139.7"/>
 <instance part="U$15" gate="G$1" x="78.74" y="132.08"/>
-<instance part="F1" gate="A" x="63.5" y="170.18" smashed="yes">
+<instance part="F801" gate="A" x="63.5" y="170.18" smashed="yes">
 <attribute name="NAME" x="65.7606" y="166.5224" size="1.778" layer="95" ratio="10" rot="SR0"/>
 </instance>
-<instance part="P2" gate="G$1" x="33.02" y="172.72" rot="R180"/>
-<instance part="D1" gate="G$1" x="93.98" y="147.32"/>
-<instance part="C4" gate="G$1" x="78.74" y="101.6"/>
+<instance part="P802" gate="G$1" x="33.02" y="172.72" rot="R180"/>
+<instance part="D801" gate="G$1" x="93.98" y="147.32"/>
+<instance part="C804" gate="G$1" x="78.74" y="101.6"/>
 <instance part="U$2" gate="G$1" x="78.74" y="93.98"/>
-<instance part="C5" gate="G$1" x="101.6" y="101.6"/>
+<instance part="C805" gate="G$1" x="101.6" y="101.6"/>
 <instance part="U$3" gate="G$1" x="101.6" y="93.98"/>
-<instance part="P3" gate="G$1" x="22.86" y="99.06" rot="MR180"/>
-<instance part="C6" gate="G$1" x="78.74" y="60.96"/>
+<instance part="P803" gate="G$1" x="22.86" y="99.06" rot="MR180"/>
+<instance part="C806" gate="G$1" x="78.74" y="60.96"/>
 <instance part="U$4" gate="G$1" x="78.74" y="53.34"/>
-<instance part="D2" gate="G$1" x="93.98" y="68.58"/>
+<instance part="D802" gate="G$1" x="93.98" y="68.58"/>
 <instance part="BAT+" gate="G$1" x="22.86" y="68.58" rot="R180"/>
 <instance part="BAT-" gate="G$1" x="22.86" y="58.42" rot="R180"/>
 <instance part="U$5" gate="G$1" x="43.18" y="55.88"/>
 <instance part="GND2" gate="1" x="182.88" y="129.54"/>
-<instance part="C1" gate="G$1" x="182.88" y="142.24" smashed="yes" rot="R180">
+<instance part="C801" gate="G$1" x="182.88" y="142.24" smashed="yes" rot="R180">
 <attribute name="NAME" x="185.42" y="143.51" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="186.69" y="135.89" size="1.778" layer="96" rot="R180" align="top-center"/>
 </instance>
-<instance part="R1" gate="R" x="190.5" y="180.34" smashed="yes" rot="R90">
+<instance part="R801" gate="R" x="190.5" y="180.34" smashed="yes" rot="R90">
 <attribute name="NAME" x="189.23" y="180.34" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="191.77" y="180.34" size="1.778" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="ESP1" gate="IC" x="210.82" y="160.02"/>
-<instance part="R10" gate="R" x="231.14" y="137.16" smashed="yes" rot="R90">
+<instance part="U801" gate="IC" x="210.82" y="160.02"/>
+<instance part="R810" gate="R" x="231.14" y="137.16" smashed="yes" rot="R90">
 <attribute name="NAME" x="229.87" y="137.16" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="232.41" y="137.16" size="1.778" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="R2" gate="R" x="231.14" y="180.34" smashed="yes" rot="R90">
+<instance part="R802" gate="R" x="231.14" y="180.34" smashed="yes" rot="R90">
 <attribute name="NAME" x="229.87" y="180.34" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="232.41" y="180.34" size="1.778" layer="96" rot="R90" align="top-center"/>
 </instance>
 <instance part="GND10" gate="1" x="231.14" y="129.54"/>
 <instance part="GND7" gate="1" x="254" y="83.82"/>
 <instance part="GND8" gate="1" x="254" y="63.5"/>
-<instance part="R7" gate="R" x="236.22" y="86.36"/>
-<instance part="R4" gate="R" x="236.22" y="66.04"/>
-<instance part="R8" gate="R" x="226.06" y="91.44" rot="R90"/>
-<instance part="R3" gate="R" x="226.06" y="71.12" rot="R90"/>
+<instance part="R807" gate="R" x="236.22" y="86.36"/>
+<instance part="R804" gate="R" x="236.22" y="66.04"/>
+<instance part="R808" gate="R" x="226.06" y="91.44" rot="R90"/>
+<instance part="R803" gate="R" x="226.06" y="71.12" rot="R90"/>
 <instance part="GND1" gate="1" x="190.5" y="129.54"/>
-<instance part="R6" gate="R" x="238.76" y="137.16" smashed="yes" rot="R90">
+<instance part="R806" gate="R" x="238.76" y="137.16" smashed="yes" rot="R90">
 <attribute name="NAME" x="237.49" y="137.16" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="240.03" y="137.16" size="1.778" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="R11" gate="R" x="238.76" y="180.34" smashed="yes" rot="R90">
+<instance part="R811" gate="R" x="238.76" y="180.34" smashed="yes" rot="R90">
 <attribute name="NAME" x="237.49" y="180.34" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="240.03" y="180.34" size="1.778" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="R9" gate="R" x="246.38" y="180.34" smashed="yes" rot="R90">
+<instance part="R809" gate="R" x="246.38" y="180.34" smashed="yes" rot="R90">
 <attribute name="NAME" x="245.11" y="180.34" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="247.65" y="180.34" size="1.778" layer="96" rot="R90" align="top-center"/>
 </instance>
 <instance part="BOOT" gate="JMP" x="246.38" y="66.04"/>
 <instance part="RST" gate="JMP" x="246.38" y="86.36"/>
-<instance part="LED1" gate="G$1" x="246.38" y="53.34" rot="MR0"/>
-<instance part="R5" gate="R" x="236.22" y="53.34" rot="MR90"/>
+<instance part="D803" gate="G$1" x="246.38" y="53.34" rot="MR0"/>
+<instance part="R805" gate="R" x="236.22" y="53.34" rot="MR90"/>
 <instance part="U$21" gate="G$1" x="246.38" y="45.72" rot="MR0"/>
-<instance part="C3" gate="G$1" x="172.72" y="139.7"/>
+<instance part="C803" gate="G$1" x="172.72" y="139.7"/>
 <instance part="U$26" gate="G$1" x="172.72" y="132.08"/>
 </instances>
 <busses>
@@ -6713,42 +6713,42 @@ Default baudrate: 74880 baud (if not working try 76800).</text>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="P1" gate="G$1" pin="GNDBREAK"/>
+<pinref part="P801" gate="G$1" pin="GNDBREAK"/>
 <wire x1="40.64" y1="144.78" x2="45.72" y2="144.78" width="0.1524" layer="91"/>
 <label x="45.72" y="144.78" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="P1" gate="G$1" pin="GND"/>
+<pinref part="P801" gate="G$1" pin="GND"/>
 <wire x1="40.64" y1="142.24" x2="45.72" y2="142.24" width="0.1524" layer="91"/>
 <label x="45.72" y="142.24" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="C802" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="137.16" x2="78.74" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="U$15" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="P2" gate="G$1" pin="GND"/>
+<pinref part="P802" gate="G$1" pin="GND"/>
 <wire x1="35.56" y1="177.8" x2="99.06" y2="177.8" width="0.1524" layer="91"/>
 <label x="99.06" y="177.8" size="1.27" layer="95" font="vector" ratio="15" xref="yes"/>
 </segment>
 <segment>
 <wire x1="33.02" y1="109.22" x2="40.64" y2="109.22" width="0.1524" layer="91"/>
 <label x="40.64" y="109.22" size="1.27" layer="95" font="vector" ratio="10" rot="MR180" xref="yes"/>
-<pinref part="P3" gate="G$1" pin="3"/>
+<pinref part="P803" gate="G$1" pin="3"/>
 </segment>
 <segment>
-<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="C804" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="99.06" x2="78.74" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="C805" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="99.06" x2="101.6" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C6" gate="G$1" pin="2"/>
+<pinref part="C806" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="58.42" x2="78.74" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="GND"/>
 </segment>
@@ -6760,17 +6760,17 @@ Default baudrate: 74880 baud (if not working try 76800).</text>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
-<pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="C801" gate="G$1" pin="1"/>
 <wire x1="182.88" y1="132.08" x2="182.88" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R10" gate="R" pin="1"/>
+<pinref part="R810" gate="R" pin="1"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="190.5" y1="132.08" x2="190.5" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="ESP1" gate="IC" pin="GND"/>
+<pinref part="U801" gate="IC" pin="GND"/>
 <wire x1="190.5" y1="144.78" x2="193.04" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -6784,111 +6784,111 @@ Default baudrate: 74880 baud (if not working try 76800).</text>
 <wire x1="254" y1="66.04" x2="248.92" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="LED1" gate="G$1" pin="C"/>
+<pinref part="D803" gate="G$1" pin="C"/>
 <wire x1="246.38" y1="48.26" x2="246.38" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="U$21" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C3" gate="G$1" pin="-"/>
+<pinref part="C803" gate="G$1" pin="-"/>
 <wire x1="172.72" y1="134.62" x2="172.72" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="U$26" gate="G$1" pin="GND"/>
 </segment>
 </net>
 <net name="USB_DP" class="0">
 <segment>
-<pinref part="P2" gate="G$1" pin="D+"/>
+<pinref part="P802" gate="G$1" pin="D+"/>
 <wire x1="35.56" y1="175.26" x2="99.06" y2="175.26" width="0.1524" layer="91"/>
 <label x="99.06" y="175.26" size="1.27" layer="95" font="vector" ratio="15" xref="yes"/>
 </segment>
 <segment>
 <wire x1="33.02" y1="114.3" x2="40.64" y2="114.3" width="0.1524" layer="91"/>
 <label x="40.64" y="114.3" size="1.27" layer="95" font="vector" ratio="10" rot="MR180" xref="yes"/>
-<pinref part="P3" gate="G$1" pin="1"/>
+<pinref part="P803" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="5V0" class="0">
 <segment>
-<pinref part="F1" gate="A" pin="2"/>
+<pinref part="F801" gate="A" pin="2"/>
 <wire x1="73.66" y1="170.18" x2="99.06" y2="170.18" width="0.1524" layer="91"/>
 <label x="99.06" y="170.18" size="1.27" layer="95" font="vector" ratio="15" xref="yes"/>
 </segment>
 <segment>
 <wire x1="33.02" y1="106.68" x2="40.64" y2="106.68" width="0.1524" layer="91"/>
 <label x="40.64" y="106.68" size="1.27" layer="95" font="vector" ratio="10" rot="MR180" xref="yes"/>
-<pinref part="P3" gate="G$1" pin="4"/>
+<pinref part="P803" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="VIN_DC" class="0">
 <segment>
-<pinref part="P1" gate="G$1" pin="PWR"/>
+<pinref part="P801" gate="G$1" pin="PWR"/>
 <wire x1="40.64" y1="147.32" x2="45.72" y2="147.32" width="0.1524" layer="91"/>
 <label x="45.72" y="147.32" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="C802" gate="G$1" pin="1"/>
 <label x="76.2" y="147.32" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
 <wire x1="90.17" y1="147.32" x2="78.74" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="147.32" x2="76.2" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="144.78" x2="78.74" y2="147.32" width="0.1524" layer="91"/>
 <junction x="78.74" y="147.32"/>
-<pinref part="D1" gate="G$1" pin="+"/>
+<pinref part="D801" gate="G$1" pin="+"/>
 </segment>
 </net>
 <net name="3V3_EXT" class="0">
 <segment>
 <wire x1="33.02" y1="104.14" x2="40.64" y2="104.14" width="0.1524" layer="91"/>
 <label x="40.64" y="104.14" size="1.27" layer="95" font="vector" ratio="10" rot="MR180" xref="yes"/>
-<pinref part="P3" gate="G$1" pin="5"/>
+<pinref part="P803" gate="G$1" pin="5"/>
 </segment>
 <segment>
-<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="C804" gate="G$1" pin="1"/>
 <wire x1="78.74" y1="111.76" x2="78.74" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="111.76" x2="73.66" y2="111.76" width="0.1524" layer="91"/>
 <label x="73.66" y="111.76" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
-<pinref part="C5" gate="G$1" pin="1"/>
+<pinref part="C805" gate="G$1" pin="1"/>
 <wire x1="101.6" y1="106.68" x2="101.6" y2="111.76" width="0.1524" layer="91"/>
 <junction x="78.74" y="111.76"/>
 <wire x1="101.6" y1="111.76" x2="78.74" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="ESP1" gate="IC" pin="VCC"/>
+<pinref part="U801" gate="IC" pin="VCC"/>
 <wire x1="193.04" y1="149.86" x2="182.88" y2="149.86" width="0.1524" layer="91"/>
 <label x="165.1" y="149.86" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
-<pinref part="C1" gate="G$1" pin="2"/>
+<pinref part="C801" gate="G$1" pin="2"/>
 <wire x1="182.88" y1="149.86" x2="172.72" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="149.86" x2="165.1" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="144.78" x2="182.88" y2="149.86" width="0.1524" layer="91"/>
 <junction x="182.88" y="149.86"/>
-<pinref part="C3" gate="G$1" pin="+"/>
+<pinref part="C803" gate="G$1" pin="+"/>
 <wire x1="172.72" y1="142.24" x2="172.72" y2="149.86" width="0.1524" layer="91"/>
 <junction x="172.72" y="149.86"/>
 </segment>
 <segment>
-<pinref part="R2" gate="R" pin="2"/>
+<pinref part="R802" gate="R" pin="2"/>
 <wire x1="231.14" y1="185.42" x2="231.14" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="187.96" x2="190.5" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="R1" gate="R" pin="2"/>
+<pinref part="R801" gate="R" pin="2"/>
 <wire x1="190.5" y1="187.96" x2="177.8" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="185.42" x2="190.5" y2="187.96" width="0.1524" layer="91"/>
 <junction x="190.5" y="187.96"/>
 <label x="177.8" y="187.96" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
-<pinref part="R11" gate="R" pin="2"/>
+<pinref part="R811" gate="R" pin="2"/>
 <wire x1="238.76" y1="185.42" x2="238.76" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="187.96" x2="231.14" y2="187.96" width="0.1524" layer="91"/>
 <junction x="231.14" y="187.96"/>
-<pinref part="R9" gate="R" pin="2"/>
+<pinref part="R809" gate="R" pin="2"/>
 <wire x1="246.38" y1="185.42" x2="246.38" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="187.96" x2="238.76" y2="187.96" width="0.1524" layer="91"/>
 <junction x="238.76" y="187.96"/>
 </segment>
 <segment>
-<pinref part="R8" gate="R" pin="2"/>
+<pinref part="R808" gate="R" pin="2"/>
 <wire x1="226.06" y1="96.52" x2="226.06" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="99.06" x2="220.98" y2="99.06" width="0.1524" layer="91"/>
 <label x="220.98" y="99.06" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R3" gate="R" pin="2"/>
+<pinref part="R803" gate="R" pin="2"/>
 <wire x1="226.06" y1="76.2" x2="226.06" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="78.74" x2="220.98" y2="78.74" width="0.1524" layer="91"/>
 <label x="220.98" y="78.74" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
@@ -6896,20 +6896,20 @@ Default baudrate: 74880 baud (if not working try 76800).</text>
 </net>
 <net name="USB_DM" class="0">
 <segment>
-<pinref part="P2" gate="G$1" pin="D-"/>
+<pinref part="P802" gate="G$1" pin="D-"/>
 <wire x1="35.56" y1="172.72" x2="99.06" y2="172.72" width="0.1524" layer="91"/>
 <label x="99.06" y="172.72" size="1.27" layer="95" font="vector" ratio="15" xref="yes"/>
 </segment>
 <segment>
 <wire x1="33.02" y1="99.06" x2="40.64" y2="99.06" width="0.1524" layer="91"/>
 <label x="40.64" y="99.06" size="1.27" layer="95" font="vector" ratio="10" rot="MR180" xref="yes"/>
-<pinref part="P3" gate="G$1" pin="7"/>
+<pinref part="P803" gate="G$1" pin="7"/>
 </segment>
 </net>
 <net name="VBUS_IN" class="0">
 <segment>
-<pinref part="P2" gate="G$1" pin="VCC"/>
-<pinref part="F1" gate="A" pin="1"/>
+<pinref part="P802" gate="G$1" pin="VCC"/>
+<pinref part="F801" gate="A" pin="1"/>
 <wire x1="35.56" y1="170.18" x2="63.5" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -6917,13 +6917,13 @@ Default baudrate: 74880 baud (if not working try 76800).</text>
 <segment>
 <wire x1="33.02" y1="101.6" x2="40.64" y2="101.6" width="0.1524" layer="91"/>
 <label x="40.64" y="101.6" size="1.27" layer="95" font="vector" ratio="10" rot="MR180" xref="yes"/>
-<pinref part="P3" gate="G$1" pin="6"/>
+<pinref part="P803" gate="G$1" pin="6"/>
 </segment>
 <segment>
 <wire x1="254" y1="160.02" x2="246.38" y2="160.02" width="0.1524" layer="91"/>
 <label x="254" y="160.02" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
-<pinref part="ESP1" gate="IC" pin="IO5"/>
-<pinref part="R9" gate="R" pin="1"/>
+<pinref part="U801" gate="IC" pin="IO5"/>
+<pinref part="R809" gate="R" pin="1"/>
 <wire x1="246.38" y1="160.02" x2="228.6" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="175.26" x2="246.38" y2="160.02" width="0.1524" layer="91"/>
 <junction x="246.38" y="160.02"/>
@@ -6933,13 +6933,13 @@ Default baudrate: 74880 baud (if not working try 76800).</text>
 <segment>
 <wire x1="33.02" y1="86.36" x2="40.64" y2="86.36" width="0.1524" layer="91"/>
 <label x="40.64" y="86.36" size="1.27" layer="95" font="vector" ratio="10" rot="MR180" xref="yes"/>
-<pinref part="P3" gate="G$1" pin="12"/>
+<pinref part="P803" gate="G$1" pin="12"/>
 </segment>
 <segment>
 <wire x1="254" y1="162.56" x2="238.76" y2="162.56" width="0.1524" layer="91"/>
 <label x="254" y="162.56" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
-<pinref part="ESP1" gate="IC" pin="IO4"/>
-<pinref part="R11" gate="R" pin="1"/>
+<pinref part="U801" gate="IC" pin="IO4"/>
+<pinref part="R811" gate="R" pin="1"/>
 <wire x1="238.76" y1="162.56" x2="228.6" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="175.26" x2="238.76" y2="162.56" width="0.1524" layer="91"/>
 <junction x="238.76" y="162.56"/>
@@ -6948,29 +6948,29 @@ Default baudrate: 74880 baud (if not working try 76800).</text>
 <net name="VIN" class="0">
 <segment>
 <label x="101.6" y="147.32" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
-<pinref part="D1" gate="G$1" pin="-"/>
+<pinref part="D801" gate="G$1" pin="-"/>
 <wire x1="97.79" y1="147.32" x2="101.6" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="33.02" y1="111.76" x2="40.64" y2="111.76" width="0.1524" layer="91"/>
 <label x="40.64" y="111.76" size="1.27" layer="95" font="vector" ratio="10" rot="MR180" xref="yes"/>
-<pinref part="P3" gate="G$1" pin="2"/>
+<pinref part="P803" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <label x="101.6" y="68.58" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
-<pinref part="D2" gate="G$1" pin="-"/>
+<pinref part="D802" gate="G$1" pin="-"/>
 <wire x1="97.79" y1="68.58" x2="101.6" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VBAT_DC" class="0">
 <segment>
-<pinref part="C6" gate="G$1" pin="1"/>
+<pinref part="C806" gate="G$1" pin="1"/>
 <label x="76.2" y="68.58" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
 <wire x1="90.17" y1="68.58" x2="78.74" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="68.58" x2="76.2" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="66.04" x2="78.74" y2="68.58" width="0.1524" layer="91"/>
 <junction x="78.74" y="68.58"/>
-<pinref part="D2" gate="G$1" pin="+"/>
+<pinref part="D802" gate="G$1" pin="+"/>
 </segment>
 <segment>
 <wire x1="25.4" y1="68.58" x2="40.64" y2="68.58" width="0.1524" layer="91"/>
@@ -6982,18 +6982,18 @@ Default baudrate: 74880 baud (if not working try 76800).</text>
 <segment>
 <wire x1="177.8" y1="172.72" x2="193.04" y2="172.72" width="0.1524" layer="91"/>
 <label x="177.8" y="172.72" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
-<pinref part="ESP1" gate="IC" pin="RESET"/>
+<pinref part="U801" gate="IC" pin="RESET"/>
 </segment>
 <segment>
-<pinref part="R7" gate="R" pin="1"/>
+<pinref part="R807" gate="R" pin="1"/>
 <wire x1="220.98" y1="86.36" x2="226.06" y2="86.36" width="0.1524" layer="91"/>
 <label x="220.98" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="R8" gate="R" pin="1"/>
+<pinref part="R808" gate="R" pin="1"/>
 <wire x1="226.06" y1="86.36" x2="231.14" y2="86.36" width="0.1524" layer="91"/>
 <junction x="226.06" y="86.36"/>
 </segment>
 <segment>
-<pinref part="R6" gate="R" pin="1"/>
+<pinref part="R806" gate="R" pin="1"/>
 <wire x1="238.76" y1="132.08" x2="238.76" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="129.54" x2="243.84" y2="129.54" width="0.1524" layer="91"/>
 <label x="243.84" y="129.54" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
@@ -7003,39 +7003,39 @@ Default baudrate: 74880 baud (if not working try 76800).</text>
 <segment>
 <wire x1="254" y1="154.94" x2="228.6" y2="154.94" width="0.1524" layer="91"/>
 <label x="254" y="154.94" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
-<pinref part="ESP1" gate="IC" pin="MOSI/IO13"/>
+<pinref part="U801" gate="IC" pin="MOSI/IO13"/>
 </segment>
 </net>
 <net name="TXD0" class="0">
 <segment>
 <wire x1="254" y1="170.18" x2="228.6" y2="170.18" width="0.1524" layer="91"/>
 <label x="254" y="170.18" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
-<pinref part="ESP1" gate="IC" pin="TXD0/IO1"/>
+<pinref part="U801" gate="IC" pin="TXD0/IO1"/>
 </segment>
 <segment>
 <wire x1="33.02" y1="93.98" x2="40.64" y2="93.98" width="0.1524" layer="91"/>
 <label x="40.64" y="93.98" size="1.27" layer="95" font="vector" ratio="10" rot="MR180" xref="yes"/>
-<pinref part="P3" gate="G$1" pin="9"/>
+<pinref part="P803" gate="G$1" pin="9"/>
 </segment>
 </net>
 <net name="RXD0" class="0">
 <segment>
 <wire x1="254" y1="165.1" x2="228.6" y2="165.1" width="0.1524" layer="91"/>
 <label x="254" y="165.1" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
-<pinref part="ESP1" gate="IC" pin="RXD0/IO3"/>
+<pinref part="U801" gate="IC" pin="RXD0/IO3"/>
 </segment>
 <segment>
 <wire x1="33.02" y1="96.52" x2="40.64" y2="96.52" width="0.1524" layer="91"/>
 <label x="40.64" y="96.52" size="1.27" layer="95" font="vector" ratio="10" rot="MR180" xref="yes"/>
-<pinref part="P3" gate="G$1" pin="8"/>
+<pinref part="P803" gate="G$1" pin="8"/>
 </segment>
 </net>
 <net name="IO16" class="0">
 <segment>
 <wire x1="254" y1="147.32" x2="238.76" y2="147.32" width="0.1524" layer="91"/>
 <label x="254" y="147.32" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
-<pinref part="ESP1" gate="IC" pin="WAKE/IO16"/>
-<pinref part="R6" gate="R" pin="2"/>
+<pinref part="U801" gate="IC" pin="WAKE/IO16"/>
+<pinref part="R806" gate="R" pin="2"/>
 <wire x1="238.76" y1="147.32" x2="228.6" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="147.32" x2="238.76" y2="142.24" width="0.1524" layer="91"/>
 <junction x="238.76" y="147.32"/>
@@ -7045,16 +7045,16 @@ Default baudrate: 74880 baud (if not working try 76800).</text>
 <segment>
 <wire x1="254" y1="172.72" x2="228.6" y2="172.72" width="0.1524" layer="91"/>
 <label x="254" y="172.72" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
-<pinref part="ESP1" gate="IC" pin="BL/IO0"/>
+<pinref part="U801" gate="IC" pin="BL/IO0"/>
 </segment>
 <segment>
-<pinref part="R4" gate="R" pin="1"/>
+<pinref part="R804" gate="R" pin="1"/>
 <wire x1="220.98" y1="66.04" x2="226.06" y2="66.04" width="0.1524" layer="91"/>
 <label x="220.98" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="R3" gate="R" pin="1"/>
+<pinref part="R803" gate="R" pin="1"/>
 <wire x1="226.06" y1="66.04" x2="231.14" y2="66.04" width="0.1524" layer="91"/>
 <junction x="226.06" y="66.04"/>
-<pinref part="R5" gate="R" pin="1"/>
+<pinref part="R805" gate="R" pin="1"/>
 <wire x1="236.22" y1="48.26" x2="226.06" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="48.26" x2="226.06" y2="66.04" width="0.1524" layer="91"/>
 </segment>
@@ -7066,16 +7066,16 @@ Default baudrate: 74880 baud (if not working try 76800).</text>
 <wire x1="231.14" y1="167.64" x2="228.6" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="167.64" x2="231.14" y2="175.26" width="0.1524" layer="91"/>
 <junction x="231.14" y="167.64"/>
-<pinref part="ESP1" gate="IC" pin="TXD2/IO2"/>
-<pinref part="R2" gate="R" pin="1"/>
+<pinref part="U801" gate="IC" pin="TXD2/IO2"/>
+<pinref part="R802" gate="R" pin="1"/>
 </segment>
 </net>
 <net name="IO15" class="0">
 <segment>
 <wire x1="254" y1="149.86" x2="231.14" y2="149.86" width="0.1524" layer="91"/>
 <label x="254" y="149.86" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
-<pinref part="ESP1" gate="IC" pin="SCS/IO15"/>
-<pinref part="R10" gate="R" pin="2"/>
+<pinref part="U801" gate="IC" pin="SCS/IO15"/>
+<pinref part="R810" gate="R" pin="2"/>
 <wire x1="231.14" y1="149.86" x2="228.6" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="142.24" x2="231.14" y2="149.86" width="0.1524" layer="91"/>
 <junction x="231.14" y="149.86"/>
@@ -7083,10 +7083,10 @@ Default baudrate: 74880 baud (if not working try 76800).</text>
 </net>
 <net name="EN" class="0">
 <segment>
-<pinref part="ESP1" gate="IC" pin="EN"/>
+<pinref part="U801" gate="IC" pin="EN"/>
 <wire x1="190.5" y1="175.26" x2="190.5" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="167.64" x2="193.04" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="R1" gate="R" pin="1"/>
+<pinref part="R801" gate="R" pin="1"/>
 <label x="177.8" y="167.64" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
 <wire x1="177.8" y1="167.64" x2="190.5" y2="167.64" width="0.1524" layer="91"/>
 <junction x="190.5" y="167.64"/>
@@ -7094,7 +7094,7 @@ Default baudrate: 74880 baud (if not working try 76800).</text>
 </net>
 <net name="TOUT" class="0">
 <segment>
-<pinref part="ESP1" gate="IC" pin="ADC/TOUT"/>
+<pinref part="U801" gate="IC" pin="ADC/TOUT"/>
 <wire x1="254" y1="144.78" x2="228.6" y2="144.78" width="0.1524" layer="91"/>
 <label x="254" y="144.78" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
@@ -7103,44 +7103,44 @@ Default baudrate: 74880 baud (if not working try 76800).</text>
 <segment>
 <wire x1="33.02" y1="91.44" x2="40.64" y2="91.44" width="0.1524" layer="91"/>
 <label x="40.64" y="91.44" size="1.27" layer="95" font="vector" ratio="10" rot="MR180" xref="yes"/>
-<pinref part="P3" gate="G$1" pin="10"/>
+<pinref part="P803" gate="G$1" pin="10"/>
 </segment>
 <segment>
 <wire x1="254" y1="157.48" x2="228.6" y2="157.48" width="0.1524" layer="91"/>
 <label x="254" y="157.48" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
-<pinref part="ESP1" gate="IC" pin="MISO/IO12"/>
+<pinref part="U801" gate="IC" pin="MISO/IO12"/>
 </segment>
 </net>
 <net name="RTS0" class="0">
 <segment>
 <wire x1="33.02" y1="88.9" x2="40.64" y2="88.9" width="0.1524" layer="91"/>
 <label x="40.64" y="88.9" size="1.27" layer="95" font="vector" ratio="10" rot="MR180" xref="yes"/>
-<pinref part="P3" gate="G$1" pin="11"/>
+<pinref part="P803" gate="G$1" pin="11"/>
 </segment>
 <segment>
 <wire x1="254" y1="152.4" x2="228.6" y2="152.4" width="0.1524" layer="91"/>
 <label x="254" y="152.4" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
-<pinref part="ESP1" gate="IC" pin="SCK/IO14"/>
+<pinref part="U801" gate="IC" pin="SCK/IO14"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="RST" gate="JMP" pin="1"/>
 <wire x1="246.38" y1="86.36" x2="241.3" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="R7" gate="R" pin="2"/>
+<pinref part="R807" gate="R" pin="2"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="BOOT" gate="JMP" pin="1"/>
-<pinref part="R4" gate="R" pin="2"/>
+<pinref part="R804" gate="R" pin="2"/>
 <wire x1="246.38" y1="66.04" x2="241.3" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED1" class="0">
 <segment>
-<pinref part="R5" gate="R" pin="2"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="R805" gate="R" pin="2"/>
+<pinref part="D803" gate="G$1" pin="A"/>
 <wire x1="236.22" y1="58.42" x2="246.38" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="58.42" x2="246.38" y2="55.88" width="0.1524" layer="91"/>
 </segment>
