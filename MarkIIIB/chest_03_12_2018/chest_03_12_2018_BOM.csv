@@ -1,0 +1,8 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"";
+"3";"";"LED0603";"LED-0603";"D101, D102, D103";"LEDs";"";
+"2";"0.1u";"C-USC0402";"C0402";"C102, C103";"CAPACITOR, American symbol";"";
+"1";"220 Ohm";"R-US_R0402";"R0402";"R101";"RESISTOR, American symbol";"";
+"1";"47uF";"CAP1206";"1206";"C101";"Capacitor";"";
+"2";"4K7";"R-US_R0402";"R0402";"R102, R103";"RESISTOR, American symbol";"";
+"1";"503148-0890";"503148-0890";"MOLEX_503148-0890";"P100";"1.5wb Dual r/a Embs Tape Pkg 8p";"";
+"1";"BNO055";"BNO055";"BNO055";"U101";"BNO055 - Motion Co-Processor";"";

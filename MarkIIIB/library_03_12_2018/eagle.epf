@@ -1,0 +1,54 @@
+[Eagle]
+Version="06 06 00"
+Platform="Windows"
+Serial="700CBCE2DD-LSR-WLM-1CS"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-Beautify.lbr"
+UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-Boards.lbr"
+UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-Cypress.lbr"
+UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-Enclosures.lbr"
+UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-Fairchild.lbr"
+UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-Infineon.lbr"
+UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-Interface.lbr"
+UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-JTAG.lbr"
+UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-Logos.lbr"
+UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-Microchip.lbr"
+UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-Molex.lbr"
+UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-NXP.lbr"
+UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-OnSemi.lbr"
+UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-ProtoPads.lbr"
+UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-STM.lbr"
+UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-TI.lbr"
+UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-TouchChips.lbr"
+UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-TouchWidgets.lbr"
+UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents_RFmodules.lbr"
+UsedLibrary="U:/PatternAgents/eagle/thingSoC/libraries/eagle6/lbr/thingSoC.lbr"
+UsedLibrary="U:/PatternAgents/eagle/synths/oxo/oxomodular_pcblibs/halcyonmod_Connectors.lbr"
+UsedLibrary="U:/Halcyon/halcyon_libs/eagle6/lbr/halcyonmod_AnalogIC.lbr"
+UsedLibrary="U:/Halcyon/halcyon_libs/eagle6/lbr/halcyonmod_CEM.lbr"
+UsedLibrary="U:/Halcyon/halcyon_libs/eagle6/lbr/halcyonmod_Connectors.lbr"
+UsedLibrary="U:/Halcyon/halcyon_libs/eagle6/lbr/halcyonmod_DigitalIC.lbr"
+UsedLibrary="U:/Halcyon/halcyon_libs/eagle6/lbr/halcyonmod_DiscreteSemi.lbr"
+UsedLibrary="U:/Halcyon/halcyon_libs/eagle6/lbr/halcyonmod_Hardware.lbr"
+UsedLibrary="U:/Halcyon/halcyon_libs/eagle6/lbr/halcyonmod_Modules.lbr"
+UsedLibrary="U:/Halcyon/halcyon_libs/eagle6/lbr/halcyonmod_Optoelectronics.lbr"
+UsedLibrary="U:/Halcyon/halcyon_libs/eagle6/lbr/halcyonmod_Passives.lbr"
+UsedLibrary="U:/Halcyon/halcyon_libs/eagle6/lbr/halcyonmod_Potentiometers.lbr"
+UsedLibrary="U:/Halcyon/halcyon_libs/eagle6/lbr/halcyonmod_SSM.lbr"
+UsedLibrary="U:/Halcyon/halcyon_libs/eagle6/lbr/halcyonmod_Switches.lbr"
+UsedLibrary="U:/Halcyon/halcyon_libs/eagle6/lbr/haycyonmod_Logos.lbr"
+
+
+[Win_1]
+Type="Control Panel"
+Loc="103 57 1251 720"
+State=2
+Number=0
+
+[Desktop]
+Screen="3840 1080"
+Window="Win_1"

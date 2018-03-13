@@ -1,0 +1,13 @@
+version;4;5;http://eagleup.wordpress.com/;
+settings;C:/Program Files (x86)/EAGLE-6.6.0/models/;C:/Program Files (x86)/ImageMagick-6.7.6-Q16/convert.exe;C:/Program Files (x86)/ImageMagick-6.7.6-Q16/composite.exe;del;
+color;0x141414;0x202020;gold;white;
+images;U:/NullSpaceVR/mkIII-firmware/MarkIIIB/imu_03_12_2018/eagleUp/;eagleUp_imu_03_12_2018;png;600;jpg;
+outline-line;3.683000;-0.254000;19.685000;-0.254000;1.600000;
+outline-line;19.685000;-0.254000;19.685000;19.685000;1.600000;
+outline-line;19.685000;19.685000;3.683000;19.685000;1.600000;
+outline-line;3.683000;19.685000;3.683000;-0.254000;1.600000;
+outline;3.683000;-0.254000;19.685000;19.685000;1.600000;
+outline-complete;1.60;
+hole;18.151;10.094;1.270;0.800;
+hole;5.451;17.714;1.270;0.800;
+hole-complete;holes;2;0x141414;

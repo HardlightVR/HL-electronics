@@ -1,0 +1,9 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"";
+"1";"";"LEDCHIP-LED0603";"CHIP-LED0603";"D301";"LED";"";
+"3";"0.1u";"C-USC0402";"C0402";"C302, C303, C304";"CAPACITOR, American symbol";"";
+"1";"10uF";"C-USC0402";"C0402";"C301";"CAPACITOR, American symbol";"";
+"1";"120OHM-500MA";"SMD-FERRITE-CHIP-120-OHM-500MA(0603)";"L0603";"L301";"303030001";"";
+"1";"220";"R-US_R0402";"R0402";"R303";"RESISTOR, American symbol";"";
+"3";"4.7k";"R-US_R0402";"R0402";"R301, R302, R304";"RESISTOR, American symbol";"";
+"1";"502585-0470";"502585-0470";"MOLEX_502585-0470";"P301";"1.50mm Pitch CLIK-Mate™ Wire-to-Board PCB Receptacle, Single Row, Right Angle, 4 Circuits";"";
+"1";"BNO055";"BNO055";"BNO055";"U301";"BNO055 - Motion Co-Processor";"";
