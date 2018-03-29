@@ -1,0 +1,30 @@
+Screaming Circuits SMD component position file.
+Created by Centroid_ScreamingCircuits_smd.ulp 1.2.0.
+
+Centroid Data for pc board: "wifi_03_12_2018.brd" as of: 3/29/2018 4:36:02 PM
+Measurements are in inches. Comma delimited
+Only surface mount components included
+
+RefDes,Layer,LocationX,LocationY,Rotation
+C801,Top,0.280,0.080,90
+C802,Top,1.936,0.554,0
+C803,Top,1.070,0.870,180
+C804,Top,1.090,1.050,0
+C805,Top,1.090,1.120,0
+C806,Top,1.960,1.240,0
+D801,Top,1.700,1.490,90
+D802,Top,1.890,1.490,90
+D803,Top,0.890,0.050,270
+F801,Top,1.290,0.670,90
+R801,Top,0.350,0.080,270
+R802,Top,0.610,0.080,270
+R803,Top,0.670,0.080,270
+R804,Top,0.720,0.080,270
+R805,Top,0.800,0.080,270
+R806,Top,0.270,0.990,270
+R807,Top,0.350,0.990,270
+R808,Top,0.410,0.990,270
+R809,Top,0.530,0.990,90
+R810,Top,0.580,0.990,90
+R811,Top,0.430,1.100,270
+U801,Top,0.360,0.540,90

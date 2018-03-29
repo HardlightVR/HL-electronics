@@ -21,12 +21,12 @@ UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-Molex
 UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-NXP.lbr"
 UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-OnSemi.lbr"
 UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-STM.lbr"
-UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-SunLED.lbr"
 UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-TI.lbr"
 UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-TouchChips.lbr"
 UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-TouchWidgets.lbr"
 UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents_RFmodules.lbr"
 UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-ProtoPads.lbr"
+UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-SunLED.lbr"
 
 [Win_1]
 Type="Schematic Editor"
@@ -125,7 +125,7 @@ Layer=16
 [Win_3]
 Type="Control Panel"
 Loc="652 321 1251 720"
-State=2
+State=1
 Number=0
 
 [Desktop]

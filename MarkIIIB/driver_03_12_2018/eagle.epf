@@ -124,8 +124,8 @@ Layer=16
 
 [Win_3]
 Type="Control Panel"
-Loc="98 53 1806 908"
-State=2
+Loc="652 321 1251 720"
+State=1
 Number=0
 
 [Desktop]
