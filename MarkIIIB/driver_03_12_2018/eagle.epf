@@ -20,21 +20,21 @@ UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-Micro
 UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-Molex.lbr"
 UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-NXP.lbr"
 UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-OnSemi.lbr"
+UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-ProtoPads.lbr"
 UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-STM.lbr"
 UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-TI.lbr"
 UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-TouchChips.lbr"
 UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-TouchWidgets.lbr"
 UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents_RFmodules.lbr"
-UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-ProtoPads.lbr"
 UsedLibrary="U:/PatternAgents/eagle/thingSoC/libraries/eagle6/lbr/thingSoC.lbr"
 
 [Win_1]
 Type="Schematic Editor"
 Loc="652 321 1251 720"
-State=1
+State=3
 Number=2
 File="driver_03_12_2018.sch"
-View="72.4523 132.323 273.69 186.095"
+View="-5.99193 22.724 195.246 76.496"
 WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -73,7 +73,7 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: 72.4523 132.323 273.69 186.095"
+Views=" 1: -5.99193 22.724 195.246 76.496"
 Sheet=1
 
 [Win_2]
@@ -82,8 +82,8 @@ Loc="2517 224 3116 623"
 State=1
 Number=1
 File="driver_03_12_2018.brd"
-View="21.8774 73.4831 66.5522 107.498"
-WireWidths=" 0 0.254 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064"
+View="24.3774 57.2211 66.9864 112.959"
+WireWidths=" 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0 0.1778"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
 ViaDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
