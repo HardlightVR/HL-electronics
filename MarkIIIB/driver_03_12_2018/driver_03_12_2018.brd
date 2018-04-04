@@ -3083,7 +3083,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R216" library="PatternAgents-ProtoPads" package="EIA-0402" value="4.7k" x="50.6831625" y="85.693503125" smashed="yes" rot="R180"/>
 <element name="R217" library="resistor" package="R0402" value="10k" x="42.926" y="77.0382" smashed="yes"/>
 <element name="R218" library="PatternAgents-ProtoPads" package="EIA-0402" value="10k" x="50.69966875" y="75.058778125" smashed="yes" rot="R180"/>
-<element name="R19" library="PatternAgents-ProtoPads" package="EIA-0402" value="10k" x="53.87009375" y="75.058778125" smashed="yes" rot="R180"/>
+<element name="R219" library="PatternAgents-ProtoPads" package="EIA-0402" value="10k" x="53.87009375" y="75.058778125" smashed="yes" rot="R180"/>
 <element name="R220" library="PatternAgents-ProtoPads" package="EIA-0402" value="10k" x="57.068465625" y="75.0735125" smashed="yes"/>
 <element name="P201" library="503148-1690" package="MOLEX_503148-1690" value="503148-1690" x="40.344596875" y="74.433678125" smashed="yes">
 <attribute name="PACKAGE" value="None" x="40.344596875" y="74.433678125" size="1.778" layer="27" display="off"/>
@@ -3116,7 +3116,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="C201" pad="2"/>
 <contactref element="C202" pad="2"/>
 <contactref element="R218" pad="2"/>
-<contactref element="R19" pad="2"/>
+<contactref element="R219" pad="2"/>
 <contactref element="R220" pad="2"/>
 <contactref element="P202" pad="4"/>
 <polygon width="0.254" layer="2">
@@ -3479,7 +3479,7 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="A1">
 <contactref element="U201" pad="2"/>
 <contactref element="SJ2" pad="2"/>
-<contactref element="R19" pad="1"/>
+<contactref element="R219" pad="1"/>
 <wire x1="53.308503125" y1="73.9648" x2="54.483" y2="75.057" width="0.2032" layer="1"/>
 <wire x1="53.307740625" y1="72.8149375" x2="53.308503125" y2="73.9648" width="0.2032" layer="16"/>
 <wire x1="54.483" y1="71.882" x2="53.307740625" y2="72.8149375" width="0.2032" layer="1"/>

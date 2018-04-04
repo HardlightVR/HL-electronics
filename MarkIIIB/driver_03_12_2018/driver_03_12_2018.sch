@@ -7979,7 +7979,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="R216" library="PatternAgents-ProtoPads" deviceset="RESISTOR" device="0402-TYP" value="4.7k"/>
 <part name="R217" library="resistor" deviceset="R-US_" device="R0402" value="10k"/>
 <part name="R218" library="PatternAgents-ProtoPads" deviceset="RESISTOR" device="0402-TYP" value="10k"/>
-<part name="R19" library="PatternAgents-ProtoPads" deviceset="RESISTOR" device="0402-TYP" value="10k"/>
+<part name="R219" library="PatternAgents-ProtoPads" deviceset="RESISTOR" device="0402-TYP" value="10k"/>
 <part name="R220" library="PatternAgents-ProtoPads" deviceset="RESISTOR" device="0402-TYP" value="10k"/>
 <part name="P201" library="503148-1690" deviceset="503148-1690" device=""/>
 <part name="P202" library="502494-0670" deviceset="502494-0670" device=""/>
@@ -8030,7 +8030,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <instance part="R216" gate="R" x="99.06" y="17.78"/>
 <instance part="R217" gate="G$1" x="48.26" y="200.66"/>
 <instance part="R218" gate="R" x="231.14" y="129.54" rot="R270"/>
-<instance part="R19" gate="R" x="223.52" y="129.54" rot="R270"/>
+<instance part="R219" gate="R" x="223.52" y="129.54" rot="R270"/>
 <instance part="R220" gate="R" x="215.9" y="129.54" rot="R270"/>
 <instance part="P201" gate="G$1" x="193.04" y="139.7"/>
 <instance part="P202" gate="G$1" x="48.26" y="180.34"/>
@@ -8350,7 +8350,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <segment>
 <wire x1="223.52" y1="124.46" x2="223.52" y2="119.38" width="0.1524" layer="91"/>
 <label x="223.52" y="119.38" size="1.778" layer="95" rot="R270"/>
-<pinref part="R19" gate="R" pin="2"/>
+<pinref part="R219" gate="R" pin="2"/>
 </segment>
 <segment>
 <wire x1="215.9" y1="124.46" x2="215.9" y2="119.38" width="0.1524" layer="91"/>
@@ -8391,7 +8391,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <pinref part="SJ2" gate="1" pin="2"/>
 <wire x1="223.52" y1="142.24" x2="223.52" y2="134.62" width="0.1524" layer="91"/>
 <label x="223.52" y="139.7" size="1.778" layer="95" rot="R270"/>
-<pinref part="R19" gate="R" pin="1"/>
+<pinref part="R219" gate="R" pin="1"/>
 </segment>
 </net>
 <net name="A2" class="0">

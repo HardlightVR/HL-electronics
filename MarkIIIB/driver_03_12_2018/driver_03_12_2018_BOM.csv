@@ -1,11 +1,11 @@
-"Qty";"Value";"Device";"Package";"Parts";"Description";"";
-"3";"";"SJ";"SJ";"SJ1, SJ2, SJ3";"SMD solder JUMPER";"";
-"1";"100nf";"C-USC0603";"C0603";"C201";"CAPACITOR, American symbol";"";
-"4";"10k";"R-US_R0402";"R0402";"R19, R217, R218, R220";"RESISTOR, American symbol";"";
-"1";"1uF";"C-USC0603";"C0603";"C202";"CAPACITOR, American symbol";"";
-"1";"1uf";"C-USC0603";"C0603";"C203";"CAPACITOR, American symbol";"";
-"16";"4.7k";"R-US_R0402";"R0402";"R201, R202, R203, R204, R205, R206, R207, R208, R209, R210, R211, R212, R213, R214, R215, R216";"RESISTOR, American symbol";"";
-"1";"502494-0670";"502494-0670";"MOLEX_502494-0670";"P202";"2.00mm Pitch CLIK-Mate™ Wire-to-Board PCB Receptacle, Single Row, Right Angle, 6 Circuits";"";
-"1";"503148-1690";"503148-1690";"MOLEX_503148-1690";"P201";"1.50mm Pitch CLIK-Mate™ Wire-to-Board PCB Receptacle, Dual Row, Right Angle, 16 Circuits";"";
-"1";"PCA9548A_PW_24";"PCA9548A_PW_24";"PW24";"U201";"";"";
-"8";"Value";"DRV2605LDGSR";"DGS0010A";"D201, D202, D203, D204, D205, D206, D207, D208";"";"";
+Qty,Value,Device,Package,Parts,Description
+3,,SJ,SJ,"SJ1, SJ2, SJ3",SMD solder JUMPER
+1,100nf,C-USC0603,C0603,C201,"CAPACITOR, American symbol"
+4,10k,R-US_R0402,R0402,"R219, R217, R218, R220","RESISTOR, American symbol"
+1,1uF,C-USC0603,C0603,C202,"CAPACITOR, American symbol"
+1,1uf,C-USC0603,C0603,C203,"CAPACITOR, American symbol"
+16,4.7k,R-US_R0402,R0402,"R201, R202, R203, R204, R205, R206, R207, R208, R209, R210, R211, R212, R213, R214, R215, R216","RESISTOR, American symbol"
+1,502494-0670,502494-0670,MOLEX_502494-0670,P202,"2.00mm Pitch CLIK-Mate™ Wire-to-Board PCB Receptacle, Single Row, Right Angle, 6 Circuits"
+1,503148-1690,503148-1690,MOLEX_503148-1690,P201,"1.50mm Pitch CLIK-Mate™ Wire-to-Board PCB Receptacle, Dual Row, Right Angle, 16 Circuits"
+1,PCA9548A_PW_24,PCA9548A_PW_24,PW24,U201,
+8,Value,DRV2605LDGSR,DGS0010A,"D201, D202, D203, D204, D205, D206, D207, D208",

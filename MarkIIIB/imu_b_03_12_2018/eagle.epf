@@ -7,6 +7,26 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
+UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-Beautify.lbr"
+UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-Boards.lbr"
+UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-Cypress.lbr"
+UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-Enclosures.lbr"
+UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-Fairchild.lbr"
+UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-Infineon.lbr"
+UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-Interface.lbr"
+UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-JTAG.lbr"
+UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-Logos.lbr"
+UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-Microchip.lbr"
+UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-Molex.lbr"
+UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-NXP.lbr"
+UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-OnSemi.lbr"
+UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-STM.lbr"
+UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-TI.lbr"
+UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-TouchChips.lbr"
+UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-TouchWidgets.lbr"
+UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents_RFmodules.lbr"
+UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-ProtoPads.lbr"
+UsedLibrary="U:/PatternAgents/eagle/PCB_Libraries/eagle6/lbr/PatternAgents-SunLED.lbr"
 
 [Win_1]
 Type="Schematic Editor"
@@ -104,8 +124,8 @@ Layer=16
 
 [Win_3]
 Type="Control Panel"
-Loc="652 321 1251 720"
-State=1
+Loc="652 321 1719 720"
+State=2
 Number=0
 
 [Desktop]
