@@ -1,18 +1,13 @@
-# NullSpaceVR Hardlight mkIII-firmware
+#Hardlight Electronics
 
-Private Repository for NullSpaceVR Project/SOW deliverables
+Contains the PCBA designs used in the Hardlight suit, designed in Eagle™. 
 
--------------------------------------------------------------------------------------------
+###Organization
+- **MKIIIA** contains older versions of the Hardlight electronics, used in the experimental run of 25. Also includes incomplete designs for a the HL Bluetooth module. 
+- **MKIIIB** contains the final designs used in the 100 and 500 run HL releases, as well as the completed WiFi module. 
 
-MarkIIIA (First run of 100 suits)
-* chest_07_15_2017    Chest Board Schematics and Layout
-* control_07_17_2017  Control Board Schematics, Layout, and Firmware
-* DRV_04_25_2017      Motor Driver Board (Unchanged-Included for completeness)
-* IMU_07_21_2017      IMU Board Schematics and Layout
-* BATTERY_09_26_2017
-* BTLE_09_26_2017
+###Please note:
+Hardlight VR was a complex project involving many dependencies. We have decided to open the code in the hopes that others may make use of the tools and plugins we built over the years. However, some software may not have been built or tested in some time, and may require changes to be used with the latest VR software and technology. 
 
--------------------------------------------------------------------------------------------
-
-MarkIIIB (second run of 500 suits)
-Control_Board
+###Contributing and Contact
+We welcome any and all interest in derivative projects made from this software, edits to the software, and updates to the plugins and drivers! If you are interested in contributing to the public Hardlight repositories, please create an issue, or email hardlightvr@gmail.com. 
